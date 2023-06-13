@@ -71,6 +71,11 @@ To do that on Unreal 5, go to **Edit > Project Settings > Engine > Rendering > D
 <p align="center">
 <img src="./images/AntiAliasing.png">
 </p>
+## Configure Android Project Settings
+Make sure that the **Support OpenGL ES3** option is enabled, and that all the Android Settings have been configurated. 
+<p align="center">
+<img src="./images/OpenGl.png">
+</p>
 
 ## Packaging the project
 In order to package the project, you need to make sure that **Your_Project.uproject** file has been correctly updated on the **“Plugins”** field:
