@@ -34,3 +34,4 @@
 ## Unreal 4 for Windows Requirements:
 * Visual Studio 2017 v15.6 or later (recommended), Visual Studio 2019
 
+### MULTISTREAM IS NOT SUPPORTED FOR ANDROID PLATFORM
