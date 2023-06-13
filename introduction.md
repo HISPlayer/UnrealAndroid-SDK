@@ -28,10 +28,10 @@
 ### Supported Graphics API:
 * OpenGL ES3
 
+### Multistream is not supported for Android platform.
+
 ## Unreal 4 for Android Minimum SDK Version:
 * 19 (KitKat)
 
 ## Unreal 4 for Windows Requirements:
 * Visual Studio 2017 v15.6 or later (recommended), Visual Studio 2019
-
-### MULTISTREAM IS NOT SUPPORTED FOR ANDROID PLATFORM
