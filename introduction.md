@@ -35,11 +35,11 @@
 * UMG UI
 
 ### Supported Graphics API:
-* OpenGL 3
+* OpenGL ES3
+
+## Unreal 4 for Android Minimum SDK Version:
+* 19 (KitKat)
 
 ## Unreal 5 for Windows Requirements:
-* Visual Studio 2019 v16.11.5, Visual Studio 2022
-* Windows SDK 10.0.18362
-* LLVM clang 13.0.1
-* .NET 4.6.2 Targeting Pack
-* .NET 6.0
+* Visual Studio 2017 v15.6 or later (recommended), Visual Studio 2019
+
