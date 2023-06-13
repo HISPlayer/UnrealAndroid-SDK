@@ -75,7 +75,7 @@ To do that on Unreal 5, go to **Edit > Project Settings > Engine > Rendering > D
 ## Configure Android Project Settings
 Make sure that the **Support OpenGL ES3** option is enabled, and that all the Android Settings have been configurated. 
 <p align="center">
-<img src="./images/OpenGl.png">
+<img src="./images/OpenGL.png">
 </p>
 
 ## Packaging the project
