@@ -17,7 +17,7 @@
 * MP4
 * AVI
 
-### Video Codecs
+### Video Codecs:
 * H.263
 * H.264 (AVC)
 * H.265 (HEVC)
