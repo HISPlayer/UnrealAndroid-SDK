@@ -86,44 +86,18 @@ Stop the video and, next time it's played, it will begin from start.
 Must be called for closing and releasing HISPlayer.
   * **Param1**: Stream index.
 
-#### static void Seek(int streamIndex) // HISPlayer Seek
-This method seeks the playback position exactly to a specific time.
-  * **Param1**: Stream index.
-
-#### static HISPlayerStatus GetPlayerStatus(int streamIndex) // HISPlayer Get Player Status
+#### static HISPlayerStatus GetPlayerStatus(int streamIndex) // HISPlayer Get Player Status (Only working for Windows)
 Get the current player status.
   * **Param1**: Stream index.
   * **Return**: Stream status as a HISPlayerStatus type.
 
-#### static bool SetLooping(int streamIndex, bool looping) // HISPlayer Set Looping
-Enable or disable looping.
-  * **Param1**: Stream index.
-  * **Param2**: Whether the looping should be enabled or disabled.
-  * **Return**: True on success, False otherwise.
-
-#### static bool SetMute(int streamIndex, bool mute) // HISPlayer Set Mute
-Mute or Unmute audio playback.
-  * **Param1**: Stream index.
-  * **Param2**: True for muting, False for unmuting.
-  * **Return**: True on success, False otherwise.
-
-#### static void CreateNewTexture(int streamIndex, FIntPoint resolution, UTexture2D*& outputTexture) // HISPlayer Create New Texture
+#### static void CreateNewTexture(int streamIndex, FIntPoint resolution, UTexture2D*& outputTexture) // HISPlayer Create New Texture 
  Create a new texture of a new resolution for a particular stream.
   * **Param1**: Stream index.
 	 * **Param2**: FIntPoint for resolution. X value for Width, Y value for Height.
 	 * **Param3**: Result texture reference.
-
-#### static int GetPlaybackPosition(int streamIndex) // HISPlayer Get Playback Position
- Get the current stream playback position in miliseconds.
-  * **Param1**: Stream index.
-  * **Return**: Playback position.
   
-#### static UDelegateManager* Getdelegatemanager(int streamIndex) // HISPlayer Get Delegate Manager
+#### static UDelegateManager* Getdelegatemanager(int streamIndex) // HISPlayer Get Delegate Manager (Only working for Windows)
 Get the Delegate Manager.
   * **Param1**: Stream index.
   * **Return**: Delegate manager reference.
-  
-#### static FString GetExpirationDate(int streamIndex) // HISPlayer Get Expiration Date
-Get the Expiration Date.
-  * **Param1**: Stream index.
-  * **Return**: Expiration date in String format.
