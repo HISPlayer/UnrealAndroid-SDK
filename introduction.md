@@ -31,6 +31,6 @@
 ## Unreal 4 for Android Minimum SDK Version:
 * 19 (KitKat)
 
-## Unreal 5 for Windows Requirements:
+## Unreal 4 for Windows Requirements:
 * Visual Studio 2017 v15.6 or later (recommended), Visual Studio 2019
 
