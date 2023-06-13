@@ -1,4 +1,4 @@
-- [HISPlayer Unreal Windows SDK](/introduction.md)
+- [HISPlayer Unreal Android SDK](/introduction.md)
 - [Quickstart Guide](/setup-guide.md)
 - [HISPlayer API](/hisplayer-api.md)
 - [Releases](/releases.md)
