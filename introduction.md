@@ -1,12 +1,8 @@
-# HISPlayer Unreal Windows SDK
+# HISPlayer Android Windows SDK
 
 ## Compatibility
 ### Supported Unreal Versions: 
 * 4.26
-* 4.27
-* 5.0
-* 5.1
-* 5.2
 
 ### Supported Stream Protocols: 
 * HLS
@@ -21,16 +17,25 @@
 * MP4
 * AVI
 
+### Video Codecs
+* H.263
+* H.264 (AVC)
+* H.265 (HEVC)
+* MPEG-4
+* MPEG-2
+* VP9
+* Audio Codecs
+* AAC-LC
+* MP3
+* Dolby AC3
+* Dolby EAC3
+
 ### Supported Unreal’s Rendering Mode: 
 * Texture
 * UMG UI
 
 ### Supported Graphics API:
-* DirectX 11
-* Vulkan
-
-### Maximum Supported Resolution:
-* 2,160 x 3,840 (4K)
+* OpenGL 3
 
 ## Unreal 5 for Windows Requirements:
 * Visual Studio 2019 v16.11.5, Visual Studio 2022
