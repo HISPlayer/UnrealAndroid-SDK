@@ -8,15 +8,6 @@
 * HLS
 * DASH
 
-### Supported Audio Codecs:
- * AVI
- * MP3
- * WAV
-
-### Supported Video Codecs:
-* MP4
-* AVI
-
 ### Video Codecs:
 * H.263
 * H.264 (AVC)
