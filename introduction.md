@@ -1,4 +1,4 @@
-# HISPlayer Android Windows SDK
+# HISPlayer Android SDK
 
 ## Compatibility
 ### Supported Unreal Versions: 
