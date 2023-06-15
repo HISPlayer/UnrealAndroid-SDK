@@ -73,7 +73,7 @@ To do that on Unreal 5, go to **Edit > Project Settings > Engine > Rendering > D
 </p>
 
 ## Configure Android Project Settings
-Make sure that the **Support OpenGL ES3** option is enabled, and that all the Android Settings have been configurated according to your project needs. 
+Make sure that the **Support OpenGL ES3** option is enabled, **Vulkan Support** is disabled, and that all the Android Settings have been configurated according to your project needs. 
 <p align="center">
 <img src="./images/OpenGL.png">
 </p>
