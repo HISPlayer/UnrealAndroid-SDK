@@ -3,6 +3,8 @@
 ## Compatibility
 ### Supported Unreal Versions: 
 * 4.26
+* 4.27
+* 5.2
 
 ### Supported Stream Protocols: 
 * HLS
