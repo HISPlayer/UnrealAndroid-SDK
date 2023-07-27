@@ -79,6 +79,8 @@ Make sure that the **Support OpenGL ES3** option is enabled, **Vulkan Support** 
 </p>
 
 ## Packaging the project
+Before packaging the project, please make sure first that you are using the right NDK and JDK versions needed for your specific Unreal Engine version. You can check which ones to install on the [official Unreal documentation page](https://docs.unrealengine.com/5.2/en-US/android-development-requirements-for-unreal-engine/) . If you have installed different NDK or JDK versions on your computer, you can always change the ones you are targeting on the **Project Settings > Platforms > Android SDK** menu.
+
 In order to package the project, you need to make sure that **Your_Project.uproject** file has been correctly updated on the **“Plugins”** field:
 
 <p align="center">
