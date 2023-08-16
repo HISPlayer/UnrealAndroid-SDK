@@ -42,7 +42,7 @@ Seeks the video to a certain position
   * **Param2**: Position to seek in miliseconds.
 
 #### static void SetVolume(int streamIndex, float newVolume) // HISPlayer SetVolume
-Set Playback Volume.
+Set Playback volume.
   * **Param1**: Stream index.
   * **Param2**: Must be included in the range [0.0f, 1.0f].
 
