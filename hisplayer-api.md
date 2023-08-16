@@ -47,7 +47,7 @@ Set Playback Volume.
   * **Param2**: Must be included in the range [0.0f, 1.0f].
 
 #### static void SetMute(int streamIndex, bool isMute) // HISPlayer SetMute
-Seeks the video to a certain position.
+Mute the current audio.
   * **Param1**: Stream index.
   * **Param2**: True for mute, False for unmute.
 
