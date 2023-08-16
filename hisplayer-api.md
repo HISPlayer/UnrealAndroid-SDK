@@ -36,6 +36,31 @@ Pause the video.
 Stop the video and, next time it's played, it will begin from start.
   * **Param1**: Stream index.
 
+#### static void Seek(int streamIndex, int msec) // HISPlayer Seek
+Seeks the video to a certain position
+  * **Param1**: Stream index.
+  * **Param2**: Position to seek in miliseconds.
+
+#### static void SetVolume(int streamIndex, float newVolume) // HISPlayer SetVolume
+Set Playback Volume.
+  * **Param1**: Stream index.
+  * **Param2**: Must be included in the range [0.0f, 1.0f].
+
+#### static void SetMute(int streamIndex, bool isMute) // HISPlayer SetMute
+Seeks the video to a certain position.
+  * **Param1**: Stream index.
+  * **Param2**: True for mute, False for unmute.
+
+#### static int GetCurrentPosition(int streamIndex) // HISPlayer GetCurrentPosition
+Returns the current time position of the current track.
+  * **Param1**: Stream index.
+  * **Return**: Returns the current time position of the current track in miliseconds.
+
+#### static int GetTotalTime(int streamIndex) // HISPlayer GetTotalTime
+Returns the total time of the current track.
+  * **Param1**: Stream index.
+  * **Return**: Returns the current time position of the current track in miliseconds.
+
 #### static void Close(int streamIndex) // HISPlayer Close
 Must be called for closing and releasing HISPlayer.
   * **Param1**: Stream index.
