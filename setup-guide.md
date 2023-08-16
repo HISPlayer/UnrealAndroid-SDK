@@ -85,13 +85,3 @@ You can update this file manually, or by clicking on the Update button when this
 <p align="center">
 <img src="./images/Update.png">
 </p>
-
-## Updating the SDK
-
-To update a HISPlayer SDK of a previous version, please follow these steps:
-* Go to your Root project folder > Plugins and delete the HISPlayer folder.
-* Paste your new HISPlayer SDK folder inside the Plugins folder.
-* Go again to your Root project folder and delete the Binaries and Intermediate folders.
-* Execute Your_Project.uproject file.
-
-Make sure that your project is closed while doing this process.
