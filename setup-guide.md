@@ -45,13 +45,6 @@ To render the content, you need to set an actor with **HISPlayer_Material** as M
 <img src="./images/add-actor.png">
 </p>
 
-## Configure HISPlayer properties
-Set the player’s parameters as desired in your **HISPlayer_Blueprint** actor.
-
-<p align="center">
-<img src="./images/playback-props.png">
-</p>
-
 You can modify the behavior of the **HISPlayer_Blueprint** as desired or use a custom blueprint, as long as it follows the original structure.
 
 <p align="center">
