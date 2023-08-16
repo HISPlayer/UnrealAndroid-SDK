@@ -17,7 +17,7 @@ Through this guide, you will be introduced how to update the SDK if you already 
 - Paste your new HISPlayer SDK folder inside the Plugins folder.
 
 <p align="center">
-<img src="./images/paste-new-sdk">
+<img src="./images/paste-new-sdk.png">
 </p>
 
 - Execute Your_Project.uproject file.
