@@ -57,6 +57,13 @@ Use the **HISPlayer API** to add your own implementation.
 <img src="./images/sample.png">
 </p>
 
+## License Key
+Input the license key that is associated with the SDK. If the license key is not valid, the player won’t work and will throw an error message. To find this field, go to the Level Outliner and look for the HISPlayer_Blueprint actor. Then, on the Details window, look for the HISPlayer section.
+
+<p align="center">
+<img src="./images/licensekey.png">
+</p>
+
 ## Disable Anti-Aliasing
 If you are experiencing a ghosting effect on the stream, then you will need to disable the anti-aliasing effect on your project. 
 To do that on Unreal 5, go to **Edit > Project Settings > Engine > Rendering > Default Settings > Anti-Aliasing Method** and set it to **None**.
@@ -85,3 +92,13 @@ You can update this file manually, or by clicking on the Update button when this
 <p align="center">
 <img src="./images/Update.png">
 </p>
+
+## Updating the SDK
+
+To update a HISPlayer SDK of a previous version, please follow these steps:
+* Go to your Root project folder > Plugins and delete the HISPlayer folder.
+* Paste your new HISPlayer SDK folder inside the Plugins folder.
+* Go again to your Root project folder and delete the Binaries and Intermediate folders.
+* Execute Your_Project.uproject file.
+
+Make sure that your project is closed while doing this process.
