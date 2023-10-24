@@ -1,4 +1,9 @@
 # HISPlayer Android SDK Release Notes
+### Version 1.1.0
+##### October 24, 2023
+- [Added] Added License Key field.
+- [Added] Support for Unreal 5.3.
+
 ### Version 1.0.0
 ##### August 16, 2023
 - [Added] Seek API.
