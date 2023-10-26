@@ -40,7 +40,7 @@ The most advanced video streaming player for Unreal Engine supporting VOD and Li
 ## Unreal 4 for Windows Requirements:
 * Visual Studio 2017 v15.6 or later (recommended), Visual Studio 2019
   
-## Unreal 4 for Windows Requirements:
+## Unreal 5 for Windows Requirements:
 * Visual Studio 2022
   
 ## Unreal Android Compatibility Table
