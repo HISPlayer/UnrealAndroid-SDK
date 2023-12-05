@@ -8,6 +8,8 @@ The most advanced video streaming player for Unreal Engine supporting VOD and Li
 * 5.2
 * 5.3
 
+Only official Unreal versions from Epic Games Store are supported. Custom source code version is not supported.
+
 ### Supported Stream Protocols: 
 * HLS
 * DASH
