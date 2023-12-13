@@ -1,7 +1,23 @@
 # HISPlayer API
 
 ## Public API
-The following public APIs are provided by **HISPlayerManager**.
+The following public APIs are provided by **HISPlayerTypes**.
+* **public class UDelegateManager**: Use this delegate to receive the different HISPlayer events.
+  * **OnLoading**: The content starts loading.
+    * **Param1**: Stream's index.
+  * **OnPlay**: The content starts playing.
+    * **Param1**: Stream's index.
+  * **OnPause**: The content pauses.
+    * **Param1**: Stream's index.
+  * **OnStop**: The content stops.
+    * **Param1**: Stream's index.
+  * **OnEndContent**: The content ends.
+    * **Param1**: Stream's index.
+  * **OnTrackChanged**: The track of the stream has changed. 
+    * **Param1**: Stream's index. 
+<p align="center">
+<img src="./images/blueprint-example.png">
+</p>
 
 ## Functions
 Use the following UFunctions in your blueprint or script to make your custom HISPlayer implementation.
