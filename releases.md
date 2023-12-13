@@ -1,4 +1,9 @@
 # HISPlayer Android SDK Release Notes
+### Version 1.2.0
+##### December 13, 2023
+- [Added] Event system.
+- [Added] ABR and track change compatibility for Android and Windows Editor.
+
 ### Version 1.1.0
 ##### October 24, 2023
 - [Added] Added License Key field.
