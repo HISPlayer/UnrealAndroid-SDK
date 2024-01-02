@@ -72,6 +72,13 @@ To do that on Unreal 5, go to **Edit > Project Settings > Engine > Rendering > D
 <img src="./images/AntiAliasing.png">
 </p>
 
+## Default Windows Editor RHIs
+To use the SDK in the Windows Editor, make sure that the **Default RHIs** option is settled to **DirectX11**. Otherwise, go to **Edit > Project Settings > Platforms > Windows > Targeted RHIs**.
+
+<p align="center">
+<img src="./images/DefaultRHI.png">
+</p>
+
 ## Configure Android Project Settings
 Make sure that the **Support OpenGL ES3** option is enabled, **Vulkan Support** is disabled, and that all the Android Settings have been configurated according to your project needs. 
 <p align="center">
