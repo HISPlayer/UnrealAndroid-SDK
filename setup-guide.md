@@ -73,7 +73,7 @@ To do that on Unreal 5, go to **Edit > Project Settings > Engine > Rendering > D
 </p>
 
 ## Default Windows Editor RHIs
-To use the SDK in the Windows Editor, make sure that the **Default RHIs** option is settled to **DirectX11**. Otherwise, go to **Edit > Project Settings > Platforms > Windows > Targeted RHIs**.
+To use the SDK in the Windows Editor, make sure that the **Default RHIs** option is settled to **DirectX11** or **DirectX12**. Otherwise, go to **Edit > Project Settings > Platforms > Windows > Targeted RHIs**.
 
 <p align="center">
 <img src="./images/DefaultRHI.png">
