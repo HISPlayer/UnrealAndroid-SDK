@@ -27,6 +27,10 @@ Only official Unreal versions from Epic Games Store are supported. Custom source
 * Dolby AC3
 * Dolby EAC3
 
+### Content Protection
+ * Widevine DRM
+ * DRM token
+
 ### Supported Unreal’s Rendering Mode: 
 * Texture
 * UMG UI
