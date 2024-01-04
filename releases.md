@@ -3,7 +3,7 @@
 ##### January 4, 2023
 - [Added] Android Widevine DRM and DRM token support
 - [Added] Windows Editor Directx12 support
-  
+
 ### Version 1.2.0
 ##### December 13, 2023
 - [Added] Event system.
@@ -21,7 +21,7 @@
 - [Added] Set Mute API.
 - [Added] Get Current Position API.
 - [Added] Get Total Time API.
-  
+
 ### Version 0.1.0
 ##### June 13, 2023
 - [Added] Initial release of HISPlayer Android SDK for Unreal.
