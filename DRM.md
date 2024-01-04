@@ -17,7 +17,7 @@ It is possible to add the URL, the Key Server URI and the tokens from the Editor
 Parameters:
 
 * **Enable DRM**: Check to enable DRM usage. When enabled, there should be a Key Server URI and/or a Token Header and a Token Value associated
-  to the URL that is going to be used. In the case of non-DRM content is bettter just to disable this parameter.
+  to the URL that is going to be used. In the case of non-DRM content, please disable this parameter.
 
 * **Key Server URI**: The license URL key associated to an URL. **Enable DRM** must be true to make it work
 
