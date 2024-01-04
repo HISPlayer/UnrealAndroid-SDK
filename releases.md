@@ -1,7 +1,7 @@
 # HISPlayer Android SDK Release Notes
 ### Version 1.3.0
 ##### January 4, 2023
-- [Added] Android Widevine DRM support
+- [Added] Android Widevine DRM and DRM token support
 - [Added] Windows Editor Directx12 support
   
 ### Version 1.2.0
