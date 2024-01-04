@@ -36,6 +36,11 @@ Start HISPlayer. A valid URL must be passed as parameter.
   * **Param1**: Stream index.
   * **Return**: 0 on success.
 
+#### static int OpenPlayerWithDRM(int streamIndex, const FString& url, const FString& keyServerUri, const FString& tokenHeader, const FString& tokenValue) // HISPlayer Open Player With DRM
+Start HISPlayer. A valid URL and Key Server URI must be passed as parameter. In the case of using DRM Token, a valid Token Header and Token Value must be passed as well.
+  * **Param1**: Stream index.
+  * **Return**: 0 on success.
+
 #### static void Update(int streamIndex) // HISPlayer Update
 Update each frame, needs to be called every frame.
   * **Param1**: Stream index.
