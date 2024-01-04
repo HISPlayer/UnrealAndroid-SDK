@@ -39,17 +39,16 @@ Only official Unreal versions from Epic Games Store are supported. Custom source
 * OpenGL ES3
 
 ### Multistream is not supported for Android platform.
-### When using the HISPlayer Android SDK, please set your Windows editor targeted RHIs to Directx11.
 
 ## Unreal 4 for Android Minimum SDK Version:
 * 19 (KitKat)
 
 ## Unreal 4 for Windows Requirements:
 * Visual Studio 2017 v15.6 or later (recommended), Visual Studio 2019
-  
+
 ## Unreal 5 for Windows Requirements:
 * Visual Studio 2022
-  
+
 ## Unreal Android Compatibility Table
 
 | Unreal Version | 5.2    | 4.27    | 4.26.2    |
