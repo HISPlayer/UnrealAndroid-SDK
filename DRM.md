@@ -4,7 +4,7 @@ In the video streaming industry, the DRM (Digital Rights Management) makes possi
 Encrypted content is prepared using an encryption server and stored in a content library. The encrypted content is streamed or downloaded 
 from the content library to client devices via content servers. Licenses to view the content are obtained from the License Server.
 
-The HISPlayer Unreal SDK for Android supports [Widevine DRM](https://www.widevine.com/solutions/widevine-drm).
+The HISPlayer Unreal SDK for Android supports [Widevine DRM](https://www.widevine.com/solutions/widevine-drm). Only Widevine with security L3 is supported.
 It is also possible to add another level of protection with DRM tokens, using a token header and a token value.
 
 It is possible to add the URL, the Key Server URI and the tokens from the Editor. Please, refer to the **HISPlayer_Blueprint** located in 
