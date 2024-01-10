@@ -29,7 +29,6 @@ Only official Unreal versions from Epic Games Store are supported. Custom source
 
 ### Content Protection
  * Widevine DRM L3
- * DRM token
 
 ### Supported Unreal’s Rendering Mode: 
 * Texture
