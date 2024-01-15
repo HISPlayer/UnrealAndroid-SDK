@@ -2,9 +2,7 @@
 
 HISPlayer is the most advanced Unreal Engine Media Player for Android VOD and live contents. It enables premium DASH and HLS video streaming inside your Unreal Engine games and metaverses on Android.
 
-Here you can find the full Documentation:
-
-https://hisplayer.github.io/UnrealAndroid-SDK/#/
+# [The full Documentation](https://hisplayer.github.io/UnrealAndroid-SDK/#/)
 
 ## Try our Unreal Engine Video Player SDK Now!
 
