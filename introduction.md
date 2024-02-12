@@ -37,6 +37,10 @@ Only official Unreal versions from Epic Games Store are supported. Custom source
 ### Supported Graphics API:
 * OpenGL ES3
 
+### Supported Application Layer Protocol
+  * HTTPS
+    * HTTP is not supported
+
 ### Multistream is not supported for Android platform.
 
 ## Unreal 4 for Android Minimum SDK Version:
