@@ -1,4 +1,9 @@
 # HISPlayer Android SDK Release Notes
+
+### Version 2.0.0
+##### March 12, 2023
+- The Android SDK is combined with iOS SDK.
+
 ### Version 1.3.0
 ##### January 4, 2023
 - [Added] Android Widevine DRM and DRM token support
