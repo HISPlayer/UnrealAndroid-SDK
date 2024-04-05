@@ -55,8 +55,11 @@ Only official Unreal versions from Epic Games Store are supported. Custom source
 
 ## Unreal Android Compatibility Table
 
-| Unreal Version | 5.2    | 4.27    | 4.26.2    |
+| Unreal Version | **Android SDK Version**     | **NDK Version** | **Android Studio Version** |
 | - | - | - | - |
-| **Android SDK Version** | Recommended: SDK 32 / Minimum: SDK 30   | -   | -   |
-| **NDK Version** | NDK r25b   | NDK r21b   | NDK r21b   |
-| **Android Studio Version** | Android Studio 4.0   | Android Studio 4.0   | Android Studio 4.0   |
+| 4.26.2 | -  | NDK r21b  | Android Studio version 4.0  |
+| 4.27 | -   | NDK r21d  | Android Studio version 4.0   |
+| 5.0 | SDK 23   | NDK r21e   | Android Studio 4.0   |
+| 5.1 | Recommended: SDK 32 / Minimum: SDK 30   | NDK r25b   | Android Studio 4.0   |
+| 5.2 | Recommended: SDK 32 / Minimum: SDK 30   | NDK r25b   | Android Studio 4.0   |
+| 5.3 | Recommended: SDK 33 / Minimum: SDK 30  | NDK r25b   | Flamingo 2022.2.1 Patch 2 May 24, 2023   |
