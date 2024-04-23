@@ -20,4 +20,10 @@ Through this guide, you will be introduced how to update the SDK if you already 
 <img src="./images/paste-new-sdk.png">
 </p>
 
+- Go into the HISPlayer directory and check that the engine version in your **HISPlayer.uplugin** file is the same as your project’s Unreal version. If it's not, change the value. Also make sure that "Android" is added to the PlatformAllowList field. 
+
+<p align="center">
+<img src="./images/uplugin-file.png">
+</p>
+
 - Execute Your_Project.uproject file.
