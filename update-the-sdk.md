@@ -27,3 +27,9 @@ Through this guide, you will be introduced how to update the SDK if you already 
 </p>
 
 - Execute Your_Project.uproject file.
+
+- Update the license key that is associated with the SDK. If the license key is not valid, the player won’t work and will throw an error message. To find this field, go to the Level Outliner and look for the HISPlayer_Blueprint actor. Then, on the Details window, look for the HISPlayer section.
+
+<p align="center">
+<img src="./images/licensekey.png">
+</p>
