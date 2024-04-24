@@ -157,7 +157,7 @@ Get the ID of a certain track of a certain stream. *(SDK v2.3.0 and above)*
   * **Param2**: Track index.
   * **Return**: FString of the ID.
 
-#### static void SelectTrack(int streamIndex, int trackIndex) // HISPlayer Get Track ID
+#### static void SelectTrack(int streamIndex, int trackIndex) // HISPlayer Select Track
 Select a certain track of a certain stream to be used as the main track. The available tracks can be obtained from the tracks returned from the method GetTracks. *(SDK v2.3.0 and above)*
   * **Param1**: Stream index.
   * **Param2**: Track index.
