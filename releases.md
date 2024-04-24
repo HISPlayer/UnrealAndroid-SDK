@@ -3,8 +3,8 @@
 ### Version 2.3.0
 ##### April 24, 2023
 - [Added] OnInitComplete delegate.
-- [Added] OnSeekComplete.
-- [Added] Track change and track info retrieval related functionalities.
+- [Added] OnSeekComplete delegate.
+- [Added] Video track change and track info retrieval related functionalities.
 - [Added] Retrieve current video resolution.
 - [Added] Playback properties support.
 
