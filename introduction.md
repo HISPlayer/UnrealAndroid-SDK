@@ -37,6 +37,7 @@ Only official Unreal versions from Epic Games Store are supported. Custom source
 
 ### Supported Graphics API:
 * OpenGL ES3
+* Vulkan (supported from HISPlayerSDK version 2.2.0 and above)
 
 ### Supported Application Layer Protocol
   * HTTPS
