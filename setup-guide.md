@@ -80,10 +80,24 @@ To use the SDK in the Windows Editor, make sure that the **Default RHIs** option
 </p>
 
 ## Configure Android Project Settings
-Make sure that the **Support OpenGL ES3** option is enabled, **Vulkan Support** is disabled, and that all the Android Settings have been configurated according to your project needs. 
+Please go to  **Edit > Project Settings > Platforms > Android**.
+
+Make sure that you have clicked Configure Android Settings.
+<p align="center">
+<img src="https://github.com/HISPlayer/UnrealAndroid-SDK/assets/32887298/a804c07a-1a17-4fe0-8ef5-c3ed0c006930">
+</p>
+
+If you are using **HISPlayerSDK version 2.2.0 and above**, both Vulkan and OpenGL ES3 are supported. You can select either Vulkan or OpenGL ES3 or both according to your project requirement. 
+<p align="center">
+<img src="https://github.com/HISPlayer/UnrealAndroid-SDK/assets/32887298/78f51424-f796-4097-95f3-49456cde929b">
+</p>
+
+If you are using **HISPlayerSDK version 2.1.0 and below**, make sure that only **Support OpenGL ES3** option is enabled, **Vulkan Support** is disabled. 
 <p align="center">
 <img src="./images/OpenGL.png">
 </p>
+
+All the Android Settings must be configurated according to your project needs.
 
 ## Packaging the project
 Before packaging the project, please make sure first that you are using the right NDK and JDK versions needed for your specific Unreal Engine version. You can check which ones to install on the [official Unreal documentation page](https://docs.unrealengine.com/5.2/en-US/android-development-requirements-for-unreal-engine/) . If you have installed different NDK or JDK versions on your computer, you can always change the ones you are targeting on the **Project Settings > Platforms > Android SDK** menu.
