@@ -35,20 +35,22 @@ You can refer to any of the following guides for the Meta XR Plugin set-up for y
 - [Creating Your First Meta Quest VR App in Unreal Engine](https://developer.oculus.com/documentation/unreal/unreal-quick-start-guide-quest/)
 - [Unreal Engine 5.3.2 for Meta Quest VR Setup Guides](https://dev.epicgames.com/community/learning/tutorials/3Vx6/unreal-engine-5-3-2-for-meta-quest-vr) .
 
-## Import HISPlayer SDK
+## HISPlayer VR Sample
+### Download the Sample
+Please, download the sample here: [**HISPlayer VR Sample**]() (no need to download it if you have received it in the email). 
+
+### Import HISPlayer SDK
 If you have not imported HISPlayer SDK yet, please follow the [Setup Guide](./setup-guide.md).
+Extract the SDK from the .zip file, copy the HISPlayer folder and paste into the HISPlayerVRSample\PluginsPlugins\ directory.
 
 The HISPlayer SDK plugin default UE version is 5.1. If you want to update it to a higher UE version, please do the following:
 - Update the Plugins/HISPlayer/HISPlayer.uplugin file with the Engine Version you will be using. For more information, refer to the [setup guide](./setup-guide.md).
 
-## HISPlayer VR Sample
 ### Using the Sample
-Please, download the sample here: [**HISPlayer VR Sample**]() (no need to download it if you have received it in the email). 
-
 The HISPlayer VR Sample default UE version is 5.1. If you want to update it to a higher UE version, please do the following:
 - Right click on the HISPlayerSample.uproject file, select the option "Switch Unreal Engine Version" and select your UE version.
 
-Once the project is opened, you should be inside the **HISPlayerVRLevel** map. 
+Open **HISPlayerVRSample.uproject**. Once the project is opened, you should be inside the **HISPlayerVRLevel** map. 
 
 <p align="center">
   <img alt="image" src="./images/Level.png">
