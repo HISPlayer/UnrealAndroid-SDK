@@ -37,7 +37,7 @@ You can refer to any of the following guides for the Meta XR Plugin set-up for y
 
 ## HISPlayer VR Sample
 ### Download the Sample
-Please, download the sample here: [**HISPlayer VR Sample**]() (no need to download it if you have received it in the email). 
+Please, download the sample here: [**HISPlayer VR Sample**](https://downloads.hisplayer.com/Unreal/AllPlatforms/HISPlayerVRSample.zip) (no need to download it if you have received it in the email). 
 
 ### Import HISPlayer SDK
 If you have not imported HISPlayer SDK yet, please follow the [Setup Guide](./setup-guide.md).
