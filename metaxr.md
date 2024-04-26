@@ -1,4 +1,4 @@
-# HISPlayer VR Sample
+# Meta XR Plugin / Meta Quest Set Up Guide
 
 ## Requirements
 
