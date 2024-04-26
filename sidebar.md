@@ -1,6 +1,7 @@
 - [HISPlayer Unreal Android SDK](/introduction.md)
 - [Quickstart Guide](/setup-guide.md)
-- [DRM](/DRM.md)
 - [HISPlayer API](/hisplayer-api.md)
+- [Meta XR Plugin / Meta Quest Set Up Guide](/metaxr.md)
+- [DRM](/DRM.md)
 - [Update the SDK](/update-the-sdk.md)
 - [Releases](/releases.md)
