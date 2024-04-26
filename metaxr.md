@@ -41,7 +41,8 @@ If you have not imported HISPlayer SDK yet, please follow the [Setup Guide](./se
 The HISPlayer SDK plugin default UE version is 5.1. If you want to update it to a higher UE version, please do the following:
 - Update the Plugins/HISPlayer/HISPlayer.uplugin file with the Engine Version you will be using. For more information, refer to the [setup guide](./setup-guide.md).
 
-## Using HISPlayer VR Sample
+## HISPlayer VR Sample
+### Using the Sample
 Please, download the sample here: [**HISPlayer VR Sample**]() (no need to download it if you have received it in the email). 
 
 The HISPlayer VR Sample default UE version is 5.1. If you want to update it to a higher UE version, please do the following:
@@ -50,7 +51,7 @@ The HISPlayer VR Sample default UE version is 5.1. If you want to update it to a
 Once the project is opened, you should be inside the **HISPlayerVRLevel** map. 
 
 <p align="center">
-  <img width="100%" alt="image" src="./images/Level.png">
+  <img alt="image" src="./images/Level.png">
 </p>
 
 To build for Meta Quest, you should configure your Android platform setting by following official guide from Meta: [Configure the Project for Meta Quest Development](https://developer.oculus.com/documentation/unreal/unreal-quick-start-guide-quest/#configure) or follow below steps:
@@ -59,23 +60,50 @@ To build for Meta Quest, you should configure your Android platform setting by f
 - Enable the Meta XR plugin.
 
 <p align="center">
-  <img width="100%" alt="image" src="https://github.com/HISPlayer/UnrealAndroid-SDK/assets/32887298/b556773d-a5f8-41ed-9351-a4c4dfabacc5">
+  <img alt="image" src="https://github.com/HISPlayer/UnrealAndroid-SDK/assets/32887298/b556773d-a5f8-41ed-9351-a4c4dfabacc5">
 </p>
 
 - Choose restart editor on the prompt.
 - Select the Meta XR tools button then Project Setup Tool to open the Project Setup Tool.
 <p align="center">
-  <img width="100%" alt="image" src="https://github.com/HISPlayer/UnrealAndroid-SDK/assets/32887298/737e3e7b-1f61-46a6-b095-af9392b5d459">
+  <img alt="image" src="https://github.com/HISPlayer/UnrealAndroid-SDK/assets/32887298/737e3e7b-1f61-46a6-b095-af9392b5d459">
 </p>
 
 - Select Apply All for Required and Recommended Rules for all devices you are targeting.
 <p align="center">
-  <img width="100%" alt="image" src="https://github.com/HISPlayer/UnrealAndroid-SDK/assets/32887298/4afb7f6c-b788-4a26-bc18-2a129ba73acf">
+  <img alt="image" src="https://github.com/HISPlayer/UnrealAndroid-SDK/assets/32887298/4afb7f6c-b788-4a26-bc18-2a129ba73acf">
 </p>
 
 - Restart the editor after applying settings. Note: This may require multiple restarts after applying a setting.
 
 Then, package the project for the Android Platform, or deploy for your Quest device, in case it is connected to your PC through the Meta Quest Link App.
 <p align="center">
-  <img width="100%" alt="image" src="./images/package-quest.png">
+  <img alt="image" src="./images/package-quest.png">
 </p>
+
+### Sample Description
+The HISPlayer VR Sample is made based on the Unreal Engine [Virtual Reality Template](https://dev.epicgames.com/documentation/en-us/unreal-engine/vr-template-in-unreal-engine?application_version=5.3)
+
+The important UI components are located in HISPlayerVRSample\Content\HISPlayerResources\UI:
+- **HISPlayer_UI.uasset**: Widget Blueprint of the video playback control UI
+- **HISPlayer_UI_Actor.uasset**: Blueprint class to place the **HISPlayer_UI** widget to VR space. The **HISPlayer_UI** is attached as a widget component.
+- **HISPlayer_UI_OnClick.uasset**: Represents an abstract game action for **HISPlayer_UI** that can be mapped to Meta Quest left and right hand controllers 
+
+<p align="center">
+  <img alt="image" src="https://github.com/HISPlayer/UnrealAndroid-SDK/assets/32887298/f8ea1676-89c7-4bf0-a6f7-e1c57291c764">
+</p>
+
+The HISPlayer UI components are connected to the default VRTemplate's device input action mapping (IMC_Default) and Blueprint class (VRPawn) :
+- HISPlayerVRSample\Content\VRTemplate\Input\IMC_Default.uasset: The **HISPlayer_UI_Onlick** is mapped in this input mapping context asset. It represents the Meta Quest left and right hand controllers input action for **HISPlayer_UI**.
+<p align="center">
+  <img alt="image" src="https://github.com/HISPlayer/UnrealAndroid-SDK/assets/32887298/62b5a0d8-720d-4cba-8de5-790a715a88ed">
+</p>
+
+- HISPlayerVRSample\Content\VRTemplate\Blueprints\VRPawn.uasset: a Pawn is the physical representation of the user and defines how the user interacts with the virtual world. In the VR Template, the Pawn contains the logic for input events from the motion controllers. You can also control the behavior of Meta Quest left and right hand controller through **WidgetInteractionLeft** and **WidgetInteractionRight**. The Blueprint also controls the UI interaction with the Meta Quest left and right hand controllers emulating the left-mouse click. 
+<p align="center">
+  <img alt="image" src="https://github.com/HISPlayer/UnrealAndroid-SDK/assets/32887298/77e24f0b-32b8-4ea9-a22c-6c98b2582ece">
+</p>
+
+
+
+
