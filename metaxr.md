@@ -44,11 +44,17 @@ The HISPlayer VR Sample and the SDK plugin default UE version is 5.1. If you wan
 
 Once the project is opened, you should be inside the **HISPlayerVRLevel** map. 
 
+<p align="center">
+  <img width="100%" alt="image" src="./images/Level.png">
+</p>
+
 To build for Meta Quest, you should configure your [Android Platform settings](./setup-guide.md#Configure-Android-Project-Settings).
 
 Then, package the project for the Android Platform, or deploy for your Quest device, in case it is connected to your PC through the Meta Quest Link App.
 
-
+<p align="center">
+  <img width="100%" alt="image" src="./images/package-quest.png">
+</p>
 
 ## HISPlayer Oculus Controllers
 <p align="center">
