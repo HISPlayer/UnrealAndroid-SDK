@@ -1,7 +1,11 @@
 # HISPlayer Android SDK Release Notes
 
+### Version 2.4.0
+##### April 26, 2024
+- [Added] UE5.4 support.
+
 ### Version 2.3.0
-##### April 24, 2023
+##### April 24, 2024
 - [Added] OnInitComplete delegate.
 - [Added] OnSeekComplete delegate.
 - [Added] Video track change and video track info retrieval related functionalities.
@@ -9,19 +13,19 @@
 - [Added] Playback properties support.
 
 ### Version 2.2.0
-##### April 23, 2023
+##### April 23, 2024
 - [Added] Vulkan support for Android.
 
 ### Version 2.1.0
-##### April 8, 2023
+##### April 8, 2024
 - [Added] MacOS editor support.
 
 ### Version 2.0.0
-##### March 12, 2023
+##### March 12, 2024
 - The Android SDK is combined with iOS SDK.
 
 ### Version 1.3.0
-##### January 4, 2023
+##### January 4, 2024
 - [Added] Android Widevine DRM and DRM token support
 - [Added] Windows Editor Directx12 support
 
