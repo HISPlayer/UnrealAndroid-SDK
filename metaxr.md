@@ -41,7 +41,7 @@ Please, download the sample here: [**HISPlayer VR Sample**]() (no need to downlo
 
 ### Import HISPlayer SDK
 If you have not imported HISPlayer SDK yet, please follow the [Setup Guide](./setup-guide.md).
-Extract the SDK from the .zip file, copy the HISPlayer folder and paste into the HISPlayerVRSample\PluginsPlugins\ directory.
+Extract the SDK from the .zip file, copy the **HISPlayer** folder and paste into the HISPlayerVRSample\Plugins directory.
 
 The HISPlayer SDK plugin default UE version is 5.1. If you want to update it to a higher UE version, please do the following:
 - Update the Plugins/HISPlayer/HISPlayer.uplugin file with the Engine Version you will be using. For more information, refer to the [setup guide](./setup-guide.md).
