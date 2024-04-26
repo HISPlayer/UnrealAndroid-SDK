@@ -9,7 +9,7 @@
 - Minimum Unreal version: 5.1
 
 #### HISPlayer SDK version
-- Minimum HISPlayer SDK version: 2.4.0
+- Minimum HISPlayer SDK version: 2.2.0 with Vulkan support.
   
 #### Supported Android Version
 - Minor version - Android 12
@@ -40,6 +40,8 @@ You can refer to any of the following guides for the Meta XR Plugin set-up for y
 Please, download the sample here: [**HISPlayer VR Sample**](https://downloads.hisplayer.com/Unreal/AllPlatforms/HISPlayerVRSample.zip) (no need to download it if you have received it in the email). 
 
 ### Import HISPlayer SDK
+Please use HISPlayer SDK v2.2.0 and above with **Vulkan** support.
+
 If you have not imported HISPlayer SDK yet, please follow the [Setup Guide](./setup-guide.md).
 Extract the SDK from the .zip file, copy the **HISPlayer** folder and paste into the HISPlayerVRSample\Plugins directory.
 
