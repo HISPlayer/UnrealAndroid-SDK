@@ -1,4 +1,7 @@
 # HISPlayer Android SDK Release Notes
+### Version 2.5.0
+##### April 30, 2024
+- [Improvement] Optimized the creation and destruction of the HISPlayer_Blueprint process.
 
 ### Version 2.4.0
 ##### April 26, 2024
