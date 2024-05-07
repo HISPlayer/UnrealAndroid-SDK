@@ -23,13 +23,13 @@ Open your project and go into Edit > Plugins, look for the HISPlayer plugin and 
 </p>
 
 ## Set Default Build Settings Version
-It is preferable to use the HISPlayer SDK in a C++ project, rather than in an only blueprint one. To create a C++ project from an only blueprint one, go to **Tools > New C++ Class** and follow the indications to create a new one. Any kind of C++ parent class will work.
+It is preferable to use the HISPlayer SDK in a C++ project, rather than in an only blueprint one. To create a C++ project from an only blueprint project, go to **Tools > New C++ Class** and follow the indications to create a new one. Any kind of C++ parent class will work.
 
 <p align="center">
 <img src="./images/CreateScript.png">
 </p>
 
-For UE versions 5.0, 5.1, 5.2 and 5.3 it is necessary to set the DefaultBuildSettings to BuildSettingsVersion.V2. In order to do so, please add the line `DefaultBuildSettings = BuildSettingsVersion.V2;` in the "YourProjectName".Target.cs and "YourProjectName"Editor.Target.cs scripts: 
+For UE versions 5.0, 5.1, 5.2 and 5.3 it is necessary to set the DefaultBuildSettings to BuildSettingsVersion.V2. In order to do so, please add the line `DefaultBuildSettings = BuildSettingsVersion.V2;` in the `"YourProjectName".Target.cs` and `"YourProjectName"Editor.Target.cs` scripts, located in the `Source` directory: 
 
 <p align="center">
 <img src="./images/TargetSettings.png">
