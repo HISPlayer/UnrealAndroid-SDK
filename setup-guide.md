@@ -35,6 +35,8 @@ For UE versions 5.0, 5.1, 5.2 and 5.3 it is necessary to set the DefaultBuildSet
 <img src="./images/TargetSettings.png">
 </p>
 
+The HISPlayerSample and HISPlayerVRSample are C++ projects which already include this lines of code so, in case you are using them, you can skip to the next section.
+
 ## Import HISPlayer_Blueprint
 To use HISPlayer’s functionalities in your Level, you need to add the **HISPlayer_Blueprint**. The is located inside **Content Browser > HISPlayer Content > Blueprint**.
 
