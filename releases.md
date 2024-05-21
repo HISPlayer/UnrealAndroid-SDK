@@ -1,4 +1,14 @@
 # HISPlayer Android SDK Release Notes
+### Version 2.6.0
+##### May 21, 2024
+- [Improvement] Improvement of software robustness.
+- [Improvement] Improvement of HISPlayerStatus API.
+  
+### Version 2.6.0
+##### May 16, 2024
+- [Added] Multistream support for Windows, Mac, iOS and Android platforms
+- [Added] Get HISPlayerStatus API
+  
 ### Version 2.5.0
 ##### April 30, 2024
 - [Improvement] Optimized the creation and destruction of the HISPlayer_Blueprint process.
