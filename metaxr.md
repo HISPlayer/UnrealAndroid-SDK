@@ -80,6 +80,12 @@ To build for Meta Quest, you should configure your Android platform setting by f
 
 - Restart the editor after applying settings. Note: This may require multiple restarts after applying a setting.
 
+Input the license key that is associated with the SDK. If the license key is not valid, the player won’t work and will throw an error message. To find this field, go to the Level Outliner and look for the HISPlayer_Blueprint actor. Then, on the Details window, look for the HISPlayer section.
+
+<p align="center">
+<img src="https://github.com/HISPlayer/UnrealAndroid-SDK/assets/32887298/5be90641-47f9-44bc-bae3-ebb084199126">
+</p>
+
 Then, package the project for the Android Platform, or deploy for your Quest device, in case it is connected to your PC through the Meta Quest Link App.
 <p align="center">
   <img alt="image" src="./images/package-quest.png">

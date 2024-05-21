@@ -43,8 +43,6 @@ Only official Unreal versions from Epic Games Store are supported. Custom source
   * HTTPS
     * HTTP is not supported
 
-### Multistream is not supported for Android platform.
-
 ## Unreal 4 for Android Minimum SDK Version:
 * 19 (KitKat)
 
