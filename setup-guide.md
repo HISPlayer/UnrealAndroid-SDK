@@ -62,6 +62,14 @@ To render the content, you need to set an actor with **HISPlayer_Material** as M
 <img src="./images/add-actor.png">
 </p>
 
+## Configure HISPlayer multistream properties
+Set the player’s parameters as desired in your **HISPlayer_Blueprint** actor for single stream and multistream.
+It is possible to add more than one stream using one instance of the **HISPlayer_Blueprint**, by adding more elements to the Stream URL and Target Actors arrays.
+
+<p align="center">
+<img src="./images/playback-props.png">
+</p>
+
 You can modify the behavior of the **HISPlayer_Blueprint** as desired or use a custom blueprint, as long as it follows the original structure.
 
 <p align="center">
