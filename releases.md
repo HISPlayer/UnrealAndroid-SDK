@@ -1,4 +1,9 @@
 # HISPlayer Android SDK Release Notes
+### Version 2.7.0
+##### May 31, 2024
+- [Added] Support for non automatic date time in Android device.
+- [Improvement] HISPlayer matetrial is now color emissive. 
+
 ### Version 2.6.1
 ##### May 21, 2024
 - [Improvement] Improvement of Get HISPlayerStatus API.
