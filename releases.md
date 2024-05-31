@@ -2,7 +2,7 @@
 ### Version 2.7.0
 ##### May 31, 2024
 - [Added] Support for non automatic date time in Android device.
-- [Improvement] HISPlayer matetrial is now color emissive. 
+- [Improvement] Optimized HISPlayer matetrial to be color emissive without being affected by external light source.
 
 ### Version 2.6.1
 ##### May 21, 2024
