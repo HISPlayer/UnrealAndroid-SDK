@@ -2,6 +2,26 @@
 
 ## Public API
 The following public APIs are provided by **HISPlayerTypes**.
+
+* **enum class HISPlayerStatus**: The different status in which the stream can be settled:
+  * **NONE**
+  * **CLOSE**: The stream is closed.
+  * **STOP**: The content is stopped.
+  * **PLAY**: The content is playing.
+  * **PAUSE**: The content is paused.
+   
+* **enum class HISPlayerLogLevel**: The different log levels. The log levels are accumulative, meaning that, when a higher log level is choosen, the logs of lower levels will also be displayed. For example: If Error level is choosen, only Error logs will be displayed. If Debug level is choosen; Debug, Info, Warning and Error messages will be displayed:
+  * **DEBUG**: Logs messages useful for debugging and troubleshooting purposes, typically only visible during development.
+  * **INFO**: Provides general informational messages about the application's execution.
+  * **WARNING**: Indicates potential issues or situations that may require attention.
+  * **ERROR**: Indicates critical errors that may prevent the application from functioning correctly.
+  * **NONE** : No log messages will appear.
+
+* **struct FHISPlayerPlaybackProperties**: Use these properties to change the playback’s behavior from the editor.
+  * **bool bAutoplay**: The content will automatically play after buffering is complete.
+  * **bool bLooping**: The content will automatically loop after it ends.
+  * **bool bMute**: The content audio will be muted.
+
 * **public class UDelegateManager**: Use this delegate to receive the different HISPlayer events.
   * **OnLoading**: The content starts loading.
     * **Param1**: Stream's index.
