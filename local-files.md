@@ -7,7 +7,7 @@ HISPlayer Android for Unreal can play local content the device's storage. You ca
 In order to add videos from the device, keep in mind the SDK is taking the root path of the phone storage. The next step is to pass the name (**with the extension**) to the Multi Stream Properties.
 
 <p align="center">
-<img src="./assets/local-content.png">
+<img src="./images/local-content.png">
 </p>
 
 In the case of exploring subfolders of the devices, it’s enough adding the subfolder at the beginning of the path, e.g., using a **WhatsApp video** it is possible to provide the following path: 
