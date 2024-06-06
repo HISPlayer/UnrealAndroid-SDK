@@ -15,8 +15,14 @@ Then, in your **Windows/Mac file explorer**, add your video into that folder. Th
 <img src="./images/moviesmp4.png">
 </p>
 
+Then, add your video's relative path to your **Content**'s folder. In this example, will be *Movies/movie.mp4*:
+
+<p align="center">
+<img src="./images/moviesfolder.png">
+</p>
+
 ## Device’s local videos
-In order to add videos from the device, keep in mind the SDK is taking the root path of the phone storage. The next step is to pass the name (**with the extension**) to the Multi Stream Properties.
+In order to add videos from the device, keep in mind the SDK is taking the root path of the phone storage. The next step is to pass the name (**with the extension**) to the Stream URL field.
 
 <p align="center">
 <img src="./images/local-content.png">
