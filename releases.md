@@ -1,4 +1,8 @@
 # HISPlayer Android SDK Release Notes
+### Version 2.8.0
+##### June 7, 2024
+- [Added] Local file playback support.
+
 ### Version 2.7.0
 ##### May 31, 2024
 - [Added] Support for non automatic date time in Android device.
