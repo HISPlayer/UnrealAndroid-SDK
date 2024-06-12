@@ -21,6 +21,14 @@ Then, add your video's relative path to your **Content**'s folder. In this examp
 <img src="./images/moviesfolder.png">
 </p>
 
+If you launch the project directly into your device, by going to **Platforms -> Quick Launch -> YourDeviceName**, the content of the **Movies** directory will be automatically copied into the Android device, enabling HISPlayer to find and reproduce the local file.
+
+<p align="center">
+<img src="./images/QuickLaunch.png">
+</p>
+
+Otherwise, if you choose to package the project, save it in your **PC/Mac**, and then installing the APK manually into the device, this content will not be copied into the project, preventing **HISPlayer** from finding it.
+
 ## Device’s local videos
 In order to add videos from the device, keep in mind the SDK is taking the root path of the phone storage. The next step is to pass the name (**with the extension**) to the Stream URL field.
 
