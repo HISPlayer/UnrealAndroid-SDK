@@ -38,5 +38,35 @@ The cache must be initialized before using this function. Retrieves the remainin
 #### static bool FlushCacheFolder() // HISPlayer Flush Cache Folder
 The cache must be initialized before using this function. Free the cache folder. If a video was loaded from using the cache data, it will continue downloading the new fragments into the cache folder after the flushing is completed.
 
-## Cache Sample
+## How to use cache 
 
+### Initialization
+Initialize the Cache Instance in order to use all the cache API. It can be called before or after HISPlayer Setup(). The maxCacheSize indicates the maximum permitted size by the cache in bytes. 150 MB will be set by.
+
+### Opening Cached Content
+You can initialize the cache system instance just ater calling the HISPlayer Setup function. Then, add the URL of the stream manifest you want to add to the cache.
+<p align="center">
+<img src="./images/Cache1.png">
+</p>
+
+After the URL has been added to cache, the OnCacheURLAdded event will be thrown. There, you can call HISPlayer Open Player to open the cached content, using the same URL. You can use the functions *Is URL Cached*, *Get Remaining Cache Space* and *Flush Cache folder* as shown in the image below to keep control of the cached data.
+<p align="center">
+<img src="./images/Cache3.png">
+</p>
+
+### Cache Events
+Use the delegate manager to bind different events and keep track of the cache loading status
+<p align="center">
+<img src="./images/Cache2.png">
+</p>
+
+<p align="center">
+<img src="./images/Cache5.png">
+</p>
+
+### Release
+Dont forget to flush the cache folder and remove the URL from cache before closing and releasing HISPlayer.
+
+<p align="center">
+<img src="./images/Cache4.png">
+</p>
