@@ -3,10 +3,10 @@
 ## Requirements
 
 #### Meta XR Plugin version
-- Minimum Meta XR Plugin: 53.0 
+- Minimum Meta XR Plugin: 53.0
 
 #### Unreal version
-- Minimum Unreal version: 5.1  
+- Minimum Unreal version: 5.1
 
 #### HISPlayer SDK version
 - Minimum HISPlayer SDK version: 2.2.0 with Vulkan support.
