@@ -52,7 +52,7 @@ The HISPlayer SDK plugin default UE version is 5.1. If you want to update it to 
 The HISPlayer VR Sample default UE version is 5.1. If you want to update it to a higher UE version, please do the following:
 - Right click on the **HISPlayerVRSample.uproject** file, select the option "Switch Unreal Engine Version" and select your UE version.
 
-Open **HISPlayerVRSample.uproject**. Once the project is opened, you should be inside the **HISPlayerVRLevel** map. 
+Open **HISPlayerVRSample.uproject**. Once the project is opened, you should be inside the **HISPlayerVRLevel** map. You can select other level such as **HISPlayerVRLevelMultistream** from ContentBrowser -> HISPlayerResources -> Levels. 
 
 <p align="center">
   <img alt="image" src="./images/Level.png">
