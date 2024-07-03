@@ -63,3 +63,4 @@ If you need other Unreal version support, please contact us at contact@hisplayer
 | 5.1 | Recommended: SDK 32 / Minimum: SDK 30   | NDK r25b   | Android Studio 4.0   |
 | 5.2 | Recommended: SDK 32 / Minimum: SDK 30   | NDK r25b   | Android Studio 4.0   |
 | 5.3 | Recommended: SDK 33 / Minimum: SDK 30  | NDK r25b   | Flamingo 2022.2.1 Patch 2 May 24, 2023   |
+| 5.4 | Recommended: SDK 33 / Minimum: SDK 30  | NDK r25b   | Flamingo 2022.2.1 Patch 2 May 24, 2023   |
