@@ -4,13 +4,13 @@
 
 #### Meta XR Plugin version
 - Minimum Meta XR Plugin: 51.0
-  
+
 #### Unreal version
 - Minimum Unreal version: 5.1
 
 #### HISPlayer SDK version
 - Minimum HISPlayer SDK version: 2.2.0 with Vulkan support.
-  
+
 #### Supported Android Version
 - Minor version - Android 12
 - Recommended SDK: 32
