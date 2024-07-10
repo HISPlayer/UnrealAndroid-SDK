@@ -3,7 +3,7 @@
 ## Requirements
 
 #### Meta XR Plugin version
-- Minimum Meta XR Plugin: 51.0
+- Minimum Meta XR Plugin: 53.0
 
 #### Unreal version
 - Minimum Unreal version: 5.1
@@ -25,10 +25,12 @@ You may also use [Meta Quest Developer Hub](https://developer.oculus.com/documen
 
 ## Unreal 5 and Meta XR Plugin Integration
 
-First, please configure your Unreal engine version for Meta Quest by installing the [Unreal 5 Meta XR Plugin](https://developer.oculus.com/downloads/package/unreal-engine-5-integration/64.0/) into your engine. Make sure that the version you are installing is the correct one for your UE version.
+First, please configure your Unreal engine version for Meta Quest by installing the [Unreal 5 Meta XR Plugin](https://developer.oculus.com/downloads/package/unreal-engine-5-integration/64.0/) into your engine.
+
+**Please, select the MetaXR version corresponding to your UE version**
 
 <p align="center">
-<img width="605" alt="image" src="./images/UE5VRIntegration.png">
+  <img width=70% src="https://github.com/HISPlayer/UnrealAndroid-SDK/assets/47497948/9bb4f2a0-20ea-4036-9e3e-e197d25c41ee">
 </p>
 
 You can refer to any of the following guides for the Meta XR Plugin set-up for your project:
