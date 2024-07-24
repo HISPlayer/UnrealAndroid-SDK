@@ -64,6 +64,18 @@ Use the delegate manager to bind different events and keep track of the cache lo
 <img src="./images/Cache5.png">
 </p>
 
+Creating a new event in an Unreal blueprint and bind it with the HISPlayer Delegate Manager is very simple. Just call HISPlayer Get Delegate Manager, drag a node from the return value and select **Assign "Event Name"**.
+
+<p align="center">
+<img src="./images/BindEvent.png">
+</p>
+
+A new custom event will be created automatically. This event will be called asynchronously from the native player. In this example. *Cache Flushed* will be printed on screen everytime the stream data stored in the cache is flushed.
+
+<p align="center">
+<img src="./images/Flushed.png">
+</p>
+
 ### Release
 Dont forget to flush the cache folder and remove the URL from cache before closing and releasing HISPlayer.
 
