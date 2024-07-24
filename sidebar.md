@@ -4,6 +4,5 @@
 - [Meta XR Plugin / Meta Quest Set Up Guide](/metaxr.md)
 - [Playing Local Files](/local-files.md)
 - [DRM](/DRM.md)
-- [Caching](/caching.md)
 - [Update the SDK](/update-the-sdk.md)
 - [Releases](/releases.md)
