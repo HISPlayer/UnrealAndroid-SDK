@@ -64,7 +64,7 @@ Use the delegate manager to bind different events and keep track of the cache lo
 <img src="./images/Cache5.png">
 </p>
 
-Creating a new event in an Unreal blueprint and bind it with the HISPlayer Delegate Manager is very simple. Just call HISPlayer Get Delegate Manager, drag a node from the return value and select **Assign "Event Name"**.
+Creating a new event in an Unreal blueprint and bind it with the HISPlayer Delegate Manager is very simple. Just call HISPlayer Get Delegate Manager, drag a node from the return value and select **Assign On *Event Name***.
 
 <p align="center">
 <img src="./images/BindEvent.png">
