@@ -22,14 +22,15 @@ If you need other Unreal version support, please contact us at contact@hisplayer
 * H.265 (HEVC)
 * MPEG-4
 * MPEG-2
-* VP9
-* Audio Codecs
+* VP9 
+
+### Audio Codecs:
 * AAC-LC
 * MP3
 * Dolby AC3
 * Dolby EAC3
 
-### Content Protection
+### Content Protection:
  * Widevine DRM L3
 
 ### Supported Unreal’s Rendering Mode: 
@@ -48,9 +49,10 @@ If you need other Unreal version support, please contact us at contact@hisplayer
 * 19 (KitKat)
 
 ## Unreal 4 for Windows Requirements:
-* Visual Studio 2017 v15.6 or later (recommended), Visual Studio 2019
+* Visual Studio 2017 v15.6 or later (recommended)
+* Visual Studio 2019
 
-## Unreal 5 for Windows Requirements:
+## Unreal 5 for Windows Requirement:
 * Visual Studio 2022
 
 ## Unreal Android Compatibility Table
