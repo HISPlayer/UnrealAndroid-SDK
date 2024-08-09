@@ -116,6 +116,21 @@ The HISPlayer UI components are connected to the default VRTemplate's device inp
   <img alt="image" src="https://github.com/HISPlayer/UnrealAndroid-SDK/assets/32887298/77e24f0b-32b8-4ea9-a22c-6c98b2582ece">
 </p>
 
+## HISPlayer 360 Video Sample
 
+### Download the Sample
+Please, download the sample here: [**HISPlayer 360 VR Sample**]() (no need to download it if you have received it in the email). 
+
+### Import the SDK and using the Sample
+
+To import the SDK and use the sample, please follow the same steps to set the **HISPlayerSDK** and the **MetaXR** Unreal plugins as in the regular HISPlayer VR Sample.
+
+You can find the **HISPlayerVR360Level** map in ContentBrowser -> HISPlayerResources -> Levels. 
+
+Once the previous steps have been completed, you need to set the *HISPlayer_Mat* material to be able to render both in the outside and inside faces of the sphere. To do that, go to ContentBrowser -> Plugins -> HISPlayer Content -> Resources -> HISPlayer_Mat. Open the material editor, open the window **Details** of the *HISPlayer_Mat* node, go to **Material** and check the **Two Sided** checkbox option. 
+
+<p align="center">
+  <img alt="image" src="./images/TwoSided.png">
+</p>
 
 
