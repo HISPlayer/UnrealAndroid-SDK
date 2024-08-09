@@ -116,10 +116,10 @@ The HISPlayer UI components are connected to the default VRTemplate's device inp
   <img alt="image" src="https://github.com/HISPlayer/UnrealAndroid-SDK/assets/32887298/77e24f0b-32b8-4ea9-a22c-6c98b2582ece">
 </p>
 
-## HISPlayer 360 Video Sample
+## HISPlayer 360 Video VR Sample
 
 ### Download the Sample
-Please, download the sample here: [**HISPlayer 360 VR Sample**]() (no need to download it if you have received it in the email). 
+Please, download the sample here: [**HISPlayer 360 VR Sample**](https://downloads.hisplayer.com/Unreal/AllPlatforms/HISPlayer360VRSample.zip) (no need to download it if you have received it in the email). 
 
 ### Import the SDK and using the Sample
 
@@ -133,5 +133,5 @@ Once the previous steps have been completed, you need to set the *HISPlayer_Mat*
   <img alt="image" src="./images/TwoSided.png">
 </p>
 
-Now you will be able to render 360 video into the interior of the Sphere actor. To package the project for a Meta XR device, please follow the same instructions as in the regular **HISPlayer VR Sample**-
+Now you will be able to render 360 video into the interior of the Sphere actor. To package the project for a Meta XR device, please follow the same instructions as in the regular **HISPlayer VR Sample**.
 
