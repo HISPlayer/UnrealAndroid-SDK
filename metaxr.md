@@ -123,7 +123,7 @@ Please, download the sample here: [**HISPlayer 360 VR Sample**]() (no need to do
 
 ### Import the SDK and using the Sample
 
-To import the SDK and use the sample, please follow the same steps to set the **HISPlayerSDK** and the **MetaXR** Unreal plugins as in the regular HISPlayer VR Sample.
+To import the SDK and use the sample, please follow the same steps to set the **HISPlayerSDK** and the **MetaXR** Unreal plugins as in the regular **HISPlayer VR Sample**.
 
 You can find the **HISPlayerVR360Level** map in ContentBrowser -> HISPlayerResources -> Levels. 
 
@@ -133,4 +133,5 @@ Once the previous steps have been completed, you need to set the *HISPlayer_Mat*
   <img alt="image" src="./images/TwoSided.png">
 </p>
 
+Now you will be able to render 360 video into the interior of the Sphere actor. To package the project for a Meta XR device, please follow the same instructions as in the regular **HISPlayer VR Sample**-
 
