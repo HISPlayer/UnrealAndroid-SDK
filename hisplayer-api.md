@@ -76,7 +76,7 @@ Update each frame, needs to be called every frame.
   * **Param1**: Stream index.
 
 #### static void Resume(int streamIndex) // HISPlayer Resume
-Update each frame, needs to be called every frame.
+Resume the video.
   * **Param1**: Stream index.
 
 #### static void Pause(int streamIndex) // HISPlayer Pause
