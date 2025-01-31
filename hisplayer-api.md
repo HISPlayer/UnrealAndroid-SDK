@@ -64,13 +64,13 @@ Initialize HISPlayer. It creates a texture in runtime internally.
 #### static int OpenPlayer(int streamIndex, const FString& url) // HISPlayer Open Player
 Start HISPlayer. A valid URL must be passed as parameter.
   * **Param1**: Stream index.
-  * **Param2**: New video URL.
+  * **Param2**: Video URL.
   * **Return**: 0 on success.
 
 #### static int OpenPlayerWithDRM(int streamIndex, const FString& url, const FString& keyServerUri, const FString& tokenHeader, const FString& tokenValue) // HISPlayer Open Player With DRM
 Start HISPlayer. A valid URL and Key Server URI must be passed as parameter. In the case of using DRM Token, a valid Token Header and Token Value must be passed as well.
   * **Param1**: Stream index.
-  * **Param2**: New video URL.
+  * **Param2**: Video URL.
   * **Param3**: The license URL key associated.
   * **Param4**: Token header.
   * **Param5**: Token value.
