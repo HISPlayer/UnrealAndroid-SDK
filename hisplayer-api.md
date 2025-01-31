@@ -64,12 +64,30 @@ Initialize HISPlayer. It creates a texture in runtime internally.
 #### static int OpenPlayer(int streamIndex, const FString& url) // HISPlayer Open Player
 Start HISPlayer. A valid URL must be passed as parameter.
   * **Param1**: Stream index.
+  * **Param2**: Video URL.
   * **Return**: 0 on success.
 
 #### static int OpenPlayerWithDRM(int streamIndex, const FString& url, const FString& keyServerUri, const FString& tokenHeader, const FString& tokenValue) // HISPlayer Open Player With DRM
 Start HISPlayer. A valid URL and Key Server URI must be passed as parameter. In the case of using DRM Token, a valid Token Header and Token Value must be passed as well.
   * **Param1**: Stream index.
+  * **Param2**: Video URL.
+  * **Param3**: The license URL key associated.
+  * **Param4**: Token header.
+  * **Param5**: Token value.
   * **Return**: 0 on success.
+
+#### static void ChangeVideoContent(int streamIndex, const FString& url) // HISPlayer Change Video Content
+Change current video. A valid URL must be passed as parameter.
+  * **Param1**: Stream index.
+  * **Param2**: New video URL.
+
+#### static void ChangeVideoContentWithDRM(int streamIndex, const FString& url, const FString& keyServerUri, const FString& tokenHeader, const FString& tokenValue) // HISPlayer Change Video Content With DRM
+Change current video. A valid URL and Key Server URI must be passed as parameter. In the case of using DRM Token, a valid Token Header and Token Value must be passed as well.
+  * **Param1**: Stream index.
+  * **Param2**: New video URL.
+  * **Param3**: The license URL key associated.
+  * **Param4**: Token header.
+  * **Param5**: Token value.
 
 #### static void Update(int streamIndex) // HISPlayer Update
 Update each frame, needs to be called every frame.
@@ -88,7 +106,7 @@ Stop the video and, next time it's played, it will begin from start.
   * **Param1**: Stream index.
 
 #### static void Seek(int streamIndex, int msec) // HISPlayer Seek
-Seeks the video to a certain position
+Seeks the video to a certain position.
   * **Param1**: Stream index.
   * **Param2**: Position to seek in miliseconds.
 
@@ -112,20 +130,40 @@ Returns the total time of the current track.
   * **Param1**: Stream index.
   * **Return**: Returns the current time position of the current track in miliseconds.
 
+#### static void SetPlaybackRate(int streamIndex, double rate) // HISPlayer Set Playback Rate
+Set the playback speed rate.
+  * **Param1**: Stream index.
+  * **Param2**: Playback speed rate (1.0 for regular playback, 1.5 for 150% speed playback…etc). Min value 0.01 - Max value 8.0.
+
+#### static double GetPlaybackRate(int streamIndex) // HISPlayer Get Playback Rate
+Get the current playback speed rate.
+  * **Param1**: Stream index.
+  * **Return**: The current playback speed rate (1.0 for regular playback, 1.5 for 150% speed playback…etc).
+
 #### static void Close(int streamIndex) // HISPlayer Close
 Must be called for closing and releasing HISPlayer.
   * **Param1**: Stream index.
 
 #### static void CreateNewTexture(int streamIndex, FIntPoint resolution, UTexture2D*& outputTexture) // HISPlayer Create New Texture 
- Create a new texture of a new resolution for a particular stream. 
+Create a new texture of a new resolution for a particular stream. 
   * **Param1**: Stream index.
-	 * **Param2**: FIntPoint for resolution. X value for Width, Y value for Height.
-	 * **Param3**: Result texture reference.
-    
+  * **Param2**: FIntPoint for resolution. X value for Width, Y value for Height.
+  * **Param3**: Result texture reference.
+
 #### static void SetPlaybackProperties(int streamIndex, const FHISPlayerPlaybackProperties& Properties) // HISPlayer Set PlayBack Properties
 Set the current playback properties of the stream. *(SDK v2.3.0 and above)*
   * **Param1**: Stream index.
   * **Param2**: PlayerPlaybackProperties type.
+
+#### static HISPlayerStatus GetPlayerStatus(int streamIndex) // HISPlayer Get Player Status
+Get the current player status.
+  * **Param1**: Stream index.
+  * **Return**: Stream status as a HISPlayerStatus type.
+
+#### static UDelegateManager* GetDelegateManager(int streamIndex) // HISPlayer Get Delegate Manager
+Get the Delegate Manager.
+  * **Param1**: Stream index.
+  * **Return**: Delegate manager reference.
 
 #### static int GetVideoHeight(int streamIndex) // HISPlayer Get Video Height
 Get the height of the current track of a certain stream. *(SDK v2.3.0 and above)*
@@ -146,7 +184,7 @@ Provides information about all the tracks of a certain stream. *(SDK v2.3.0 and 
   * **Param1**: Stream index.
   * **Param2**: Track index.
   * **Return**: TArray of HISPlayerTracks.
-    
+
 #### static int GetTrackBitrate(int streamIndex, int trackIndex) // HISPlayer Get Track Bitrate
 Get the number of tracks of a certain stream. *(SDK v2.3.0 and above)*
   * **Param1**: Stream index.
