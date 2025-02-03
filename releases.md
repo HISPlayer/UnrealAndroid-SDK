@@ -1,4 +1,10 @@
 # HISPlayer Android SDK Release Notes
+### Version 2.9.0
+##### February 4, 2025
+- [Improvement] Optimized local video playback with OBB file.
+- [Improvement] Optimized performance when device is in sleep mode.
+- [Added] SetPlaybackRate and GetPlaybackRate APIs to control the current playback speed rate.
+
 ### Version 2.8.0
 ##### June 7, 2024
 - [Added] Local video playback support.
