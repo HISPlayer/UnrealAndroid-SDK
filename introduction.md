@@ -55,9 +55,6 @@ The most advanced video streaming player for Unreal Engine supporting VOD and Li
 
 | Unreal Version | **Android SDK Version**     | **NDK Version** | **Android Studio Version** |
 | - | - | - | - |
-| 4.26.2 | -  | NDK r21b  | Android Studio version 4.0  |
-| 4.27 | -   | NDK r21d  | Android Studio version 4.0   |
-| 5.0 | SDK 23   | NDK r21e   | Android Studio 4.0   |
 | 5.1 | Recommended: SDK 32 / Minimum: SDK 30   | NDK r25b   | Android Studio 4.0   |
 | 5.2 | Recommended: SDK 32 / Minimum: SDK 30   | NDK r25b   | Android Studio 4.0   |
 | 5.3 | Recommended: SDK 33 / Minimum: SDK 30  | NDK r25b   | Flamingo 2022.2.1 Patch 2 May 24, 2023   |
