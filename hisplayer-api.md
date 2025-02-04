@@ -48,7 +48,7 @@ The following public APIs are provided by **HISPlayerTypes**.
   * **int bitrate**: Bitrate of the track in bits per second.
   * **int width**: Width of the track.
   * **int framerate**: Framerate of the track in frames per second.
- 
+
 ## Functions
 Use the following UFunctions in your blueprint or script to make your custom HISPlayer implementation.
 
