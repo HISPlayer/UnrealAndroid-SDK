@@ -1,6 +1,6 @@
 # UnrealAndroid-SDK
 
-HISPlayer is the most advanced Unreal Engine Media Player for Android VOD and live contents. It enables premium DRM protected DASH and HLS video streaming inside your Unreal Engine games and metaverses on Android.
+HISPlayer is the most advanced Unreal Engine Media Player for Android VOD and live contents. It enables premium DRM protected DASH and HLS video streaming inside your Unreal Engine games, metaverses, XR apps on Android.
 
 # [The full Documentation](https://hisplayer.github.io/UnrealAndroid-SDK/#/)
 
