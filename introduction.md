@@ -23,8 +23,8 @@ The most advanced video streaming player for Unreal Engine supporting VOD and Li
 ### Audio Codecs:
 * AAC-LC
 * MP3
-* Dolby AC3
-* Dolby EAC3
+* Dolby AC3 (if codec is available in the device hardware)
+* Dolby EAC3 (if codec is available in the device hardware)
 
 ### Content Protection:
  * Widevine DRM L3
@@ -40,13 +40,6 @@ The most advanced video streaming player for Unreal Engine supporting VOD and Li
 ### Supported Application Layer Protocol
   * HTTPS
     * HTTP is not supported
-
-## Unreal 4 for Android Minimum SDK Version:
-* 19 (KitKat)
-
-## Unreal 4 for Windows Requirements:
-* Visual Studio 2017 v15.6 or later (recommended)
-* Visual Studio 2019
 
 ## Unreal 5 for Windows Requirement:
 * Visual Studio 2022
