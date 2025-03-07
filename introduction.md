@@ -7,6 +7,7 @@ The most advanced video streaming player for Unreal Engine supporting VOD and Li
 * 5.2
 * 5.3
 * 5.4
+* 5.5
 
 ### Supported Stream Protocols: 
 * HLS
@@ -52,3 +53,4 @@ The most advanced video streaming player for Unreal Engine supporting VOD and Li
 | 5.2 | Recommended: SDK 32 / Minimum: SDK 30   | NDK r25b   | Android Studio 4.0   |
 | 5.3 | Recommended: SDK 33 / Minimum: SDK 30  | NDK r25b   | Flamingo 2022.2.1 Patch 2 May 24, 2023   |
 | 5.4 | Recommended: SDK 33 / Minimum: SDK 30  | NDK r25b   | Flamingo 2022.2.1 Patch 2 May 24, 2023   |
+| 5.5 | Recommended: SDK 33 / Minimum: SDK 30  | NDK r25b   | Flamingo 2022.2.1 Patch 2 May 24, 2023   |
