@@ -11,7 +11,7 @@ HISPlayer is the most advanced Unreal Engine Media Player for Android VOD and li
 >
 > Need to host your videos online? HISPlayer lets you upload and host local video files from your computer to a server, converting them into HLS and DASH streaming URLs. You can play all these video links with our Unreal Player SDK inside your apps. **[Start your FREE trial here!](https://dashboard.hisplayer.com/signup)**
 >
->If you use HISPlayer Hosting Platform it includes Free Unreal Media Player.<br>
+>If you use HISPlayer Hosting Platform it includes Free Unreal Media Player Plugin.<br>
 >**[Download The FREE Unreal Engine Media Player Here](https://github.com/HISPlayer/Unreal_Engine_Media_Player/releases/tag/v2.9.0.1)**
 >
 >Watch a tutorial **[HERE](https://www.youtube.com/watch?v=awfN0zz-8zQ)**
