@@ -116,10 +116,10 @@ The HISPlayer UI components are connected to the default VRTemplate's device inp
   <img alt="image" src="https://github.com/HISPlayer/UnrealAndroid-SDK/assets/32887298/77e24f0b-32b8-4ea9-a22c-6c98b2582ece">
 </p>
 
-## HISPlayer 360 Video VR Sample
+## HISPlayer 8K 360 Video VR Sample
 
 ### Download the Sample
-Please, download the sample here: [**HISPlayer 360 VR Sample**](https://downloads.hisplayer.com/Unreal/AllPlatforms/HISPlayer360VRSample.zip) (no need to download it if you have received it in the email). 
+Please, download the sample here: [**HISPlayer 8K 360 VR Sample**](https://downloads.hisplayer.com/Unreal/AllPlatforms/HISPlayer8K360VRSample.zip) (no need to download it if you have received it in the email). 
 
 ### Import the SDK and using the Sample
 
