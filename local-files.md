@@ -1,6 +1,6 @@
 # Playing Local Files
 
-HISPlayer Android for Unreal can play local content the device's storage. You can load the content from the **device's internal folders**, using the absolute path *(Ex: Downloads/movie.mp4)* or from the path relative to your **Content folder**, in case you have added the content into your project *(Ex: Movies/movie.mp4)*. This feature is available from HISPlayer Unreal SDK v2.8.0 and above.
+HISPlayer Android for Unreal can play local content from the device's storage. You can load the content from the **device's internal folders**, using the absolute path *(Ex: Downloads/movie.mp4)* or from the path relative to your **Content folder**, in case you have added the content into your project *(Ex: Movies/movie.mp4)*. This feature is available from HISPlayer Unreal SDK v2.8.0 and above.
 
 ## Project videos
 In order to add local content to your Unreal project, create a diretory named *Movies* inside the main *Content* folder of your project.
