@@ -27,4 +27,4 @@ To get a demo of our latest Unreal SDK for Android, contact us here.
 
 * [Request demo](https://hisplayer.com/demo-unreal-engine-player-sdk/)
 
-* contact@hisplayer.com
+
