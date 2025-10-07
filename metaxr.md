@@ -129,7 +129,7 @@ You can find the **HISPlayerVR360Level** map in ContentBrowser -> HISPlayerResou
 
 To package the project for a Meta XR device, please follow the same instructions as in the regular **HISPlayer VR Sample**.
 
-In this sample, we use a Statich Mesh **SM_HISPlayer_Sphere** and **Sphere** actor to render 360 video. The **Sphere** actor is attached to **HISPlayer_Blueprint** in the **Target Actors**.
+In this sample, we use a Static Mesh **SM_HISPlayer_Sphere** and **Sphere** actor to render 360 video. The **Sphere** actor is attached to **HISPlayer_Blueprint** in the **Target Actors**.
 
 <p align="center">
   <img alt="image" src="https://github.com/user-attachments/assets/5d7b7052-e570-427c-afe7-61f6835b0c0e">
