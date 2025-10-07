@@ -127,11 +127,12 @@ To import the SDK and use the sample, please follow the same steps to set the **
 
 You can find the **HISPlayerVR360Level** map in ContentBrowser -> HISPlayerResources -> Levels. 
 
-Once the previous steps have been completed, you need to set the *HISPlayer_Mat* material to be able to render both in the outside and inside faces of the sphere. To do that, go to ContentBrowser -> Plugins -> HISPlayer Content -> Resources -> HISPlayer_Mat. Open the material editor, open the window **Details** of the *HISPlayer_Mat* node, go to **Material** and check the **Two Sided** checkbox option. 
+To package the project for a Meta XR device, please follow the same instructions as in the regular **HISPlayer VR Sample**.
+
+In this sample, we use a Statich Mesh **SM_HISPlayer_Sphere** and **Sphere** actor to render 360 video. The **Sphere** actor is attached to **HISPlayer_Blueprint** in the **Target Actors**.
 
 <p align="center">
-  <img alt="image" src="./images/TwoSided.png">
+  <img alt="image" src="https://github.com/user-attachments/assets/5d7b7052-e570-427c-afe7-61f6835b0c0e">
 </p>
 
-Now you will be able to render 360 video into the interior of the Sphere actor. To package the project for a Meta XR device, please follow the same instructions as in the regular **HISPlayer VR Sample**.
 
