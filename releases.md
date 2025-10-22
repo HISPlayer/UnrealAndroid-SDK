@@ -1,4 +1,12 @@
 # HISPlayer Android SDK Release Notes
+### Version 2.9.0.3
+##### October 22, 2025
+- [Improvement] Optimized performance when device is in sleep mode and reactivated.
+
+### Version 2.9.0.2
+##### June 24, 2025
+- [Improvement] Optimized video FPS performance with Vulkan for UE 5.5.
+
 ### Version 2.9.0
 ##### February 4, 2025
 - [Improvement] Optimized local video playback with OBB file.
