@@ -1,7 +1,7 @@
 # HISPlayer Android SDK Release Notes
 ### Version 2.9.0.3
 ##### October 22, 2025
-- [Improvement] Optimized performance when device is in sleep mode and reactivated.
+- [Improvement] Optimized performance when taking off and putting back on the Meta Quest device.
 
 ### Version 2.9.0.2
 ##### June 24, 2025
