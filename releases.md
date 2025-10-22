@@ -1,11 +1,11 @@
 # HISPlayer Android SDK Release Notes
 ### Version 2.9.0.3
 ##### October 22, 2025
-- [Improvement] Optimized performance when device is in sleep mode and reactivated.
+- [Improvement] Optimized performance when device is in sleep mode and reactivated for Meta Quest UE 5.5 SDK.
 
 ### Version 2.9.0.2
 ##### June 24, 2025
-- [Improvement] Optimized video FPS performance with Vulkan for UE 5.5.
+- [Improvement] Optimized video FPS performance with Vulkan for Meta Quest UE 5.5 SDK.
 
 ### Version 2.9.0
 ##### February 4, 2025
