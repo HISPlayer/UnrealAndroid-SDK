@@ -17,6 +17,7 @@ The most advanced video streaming player for Unreal Engine supporting VOD and Li
 * H.263
 * H.264 (AVC)
 * H.265 (HEVC)
+* AV1
 * MPEG-4
 * MPEG-2
 * VP9 
