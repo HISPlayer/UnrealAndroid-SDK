@@ -1,4 +1,8 @@
 # HISPlayer Android SDK Release Notes
+### Version 2.9.0.5
+##### November 20, 2025
+- [Improvement] Improved Vulkan rendering with Vulkan validation layers enabled.
+
 ### Version 2.9.0.4
 ##### November 17, 2025
 - [Improvement] Special SDK for UE 5.6 with optimized video rendering performance with Vulkan.
