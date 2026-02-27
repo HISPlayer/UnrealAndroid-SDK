@@ -1,4 +1,9 @@
 # HISPlayer Android SDK Release Notes
+### Version 2.10.0
+##### February 26, 2026
+- [Added] Support for Unreal Engine 5.6 and 5.7.
+- [Improvement] Updated plugin content elements naming to following Unreal Engine naming conventions
+
 ### Version 2.9.0.5
 ##### November 20, 2025
 - [Improvement] Improved Vulkan rendering when Vulkan validation layer is enabled.
