@@ -1,17 +1,17 @@
 # HISPlayer Unreal Android SDK
-The most advanced video streaming player for Unreal Engine supporting VOD and Live contents. It enables premium DASH and HLS video streaming inside your Unreal games and metaverses on Android. It is fully customizable. If you require specific or advanced features, please don't hesitate to contact us at contact@hisplayer.com.
+The most advanced video streaming player for Unreal Engine supporting supporting local files, VOD, and live streaming. It enables premium DASH and HLS video streaming inside your Unreal games and metaverses on Windows.
+Fully customizable and extensible to fit advanced streaming requirements. If you require specific or advanced features, please don't hesitate to contact us at [contact@hisplayer.com](mailto:contact@hisplayer.com).
 
 ## Compatibility
 ### Supported Unreal Versions: 
-* 5.1
-* 5.2
-* 5.3
-* 5.4
-* 5.5
+  * [Deprecated] 5.1 - 5.4
+  * 5.5
+  * 5.6
+  * 5.7
 
 ### Supported Stream Protocols: 
-* HLS
-* DASH
+  * HLS (Live & VOD)
+  * DASH (VOD)
 
 ### Video Codecs:
 * H.263
@@ -46,12 +46,10 @@ The most advanced video streaming player for Unreal Engine supporting VOD and Li
 ## Unreal 5 for Windows Requirement:
 * Visual Studio 2022
 
-## Unreal Android Compatibility Table
+## Unreal Engine – Android Requirements
 
-| Unreal Version | **Android SDK Version**     | **NDK Version** | **Android Studio Version** |
-| - | - | - | - |
-| 5.1 | Recommended: SDK 32 / Minimum: SDK 30   | NDK r25b   | Android Studio 4.0   |
-| 5.2 | Recommended: SDK 32 / Minimum: SDK 30   | NDK r25b   | Android Studio 4.0   |
-| 5.3 | Recommended: SDK 33 / Minimum: SDK 30  | NDK r25b   | Flamingo 2022.2.1 Patch 2 May 24, 2023   |
-| 5.4 | Recommended: SDK 33 / Minimum: SDK 30  | NDK r25b   | Flamingo 2022.2.1 Patch 2 May 24, 2023   |
-| 5.5 | Recommended: SDK 33 / Minimum: SDK 30  | NDK r25b   | Flamingo 2022.2.1 Patch 2 May 24, 2023   |
+Android development requirements for Unreal Engine depend on the specific Unreal Engine version.
+
+For accurate and up-to-date setup instructions for the Android SDK, NDK, and Android Studio, please consult the official Unreal Engine documentation:
+
+https://dev.epicgames.com/documentation/en-us/unreal-engine/set-up-android-sdk-ndk-and-android-studio-using-turnkey-for-unreal-engine?application_version=5.7
