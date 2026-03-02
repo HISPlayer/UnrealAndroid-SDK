@@ -8,9 +8,21 @@ First, extract the SDK from the .zip file, copy the **HISPlayer** folder and pas
 <img src="./images/root-dir.png">
 </p>
 
-Then, go into the HISPlayer directory and check that the "Engine Version" field value in your **HISPlayer.uplugin** file is the same as your project’s Unreal version. If it's not, change the value. 
-The "Engine Version" field will only take into account the major and middle version number (For example, if you are using UE 5.5.4, just add 5.5.0 to that field).
-Also make sure that "Android" is added to the PlatformAllowList field. 
+Then, go into the **HISPlayer** directory and open the **HISPlayer.uplugin** file. You need to check that the **Engine Version** in this file matches the Unreal Engine version of your project.
+
+> ⚠ Don’t worry about the full version number. The **Engine Version** field only cares about the **major** and **minor** version numbers. Ignore the patch number.
+
+Example:
+1. Suppose your project uses **Unreal Engine 5.5.4**.  
+2. Open **HISPlayer.uplugin**.  
+3. Locate the field **"Engine Version"**.  
+4. Enter only the **major** and **minor** numbers: `5.5.0`.  
+   - ✅ Correct: `5.5.0`  
+   - ❌ Incorrect: `5.5.4` (the patch number `.4` will be ignored anyway)  
+
+This ensures that HISPlayer is recognized as compatible with your Unreal Engine project.  
+
+If you are unsure, always use `X.Y.0` where `X` is the major version and `Y` is the minor version of your Unreal Engine.
 
 <p align="center">
 <img width="300" height="39" alt="image" src="https://github.com/user-attachments/assets/99731622-62ef-423c-8875-9aff98f5de60" />
