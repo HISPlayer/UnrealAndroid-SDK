@@ -9,17 +9,17 @@ First, extract the SDK from the .zip file, copy the **HISPlayer** folder and pas
 </p>
 
 Then, go into the HISPlayer directory and check that the "Engine Version" field value in your **HISPlayer.uplugin** file is the same as your project’s Unreal version. If it's not, change the value. 
-The "Engine Version" field will only take into account the major and middle version number (For example, if you are using UE 5.3.2, just add 5.3.0 to that field).
+The "Engine Version" field will only take into account the major and middle version number (For example, if you are using UE 5.5.4, just add 5.5.0 to that field).
 Also make sure that "Android" is added to the PlatformAllowList field. 
 
 <p align="center">
-<img src="./images/uplugin-file.png">
+<img width="300" height="39" alt="image" src="https://github.com/user-attachments/assets/99731622-62ef-423c-8875-9aff98f5de60" />
 </p>
 
 Open your project and go into Edit > Plugins, look for the HISPlayer plugin and if it’s disabled, enable it and restart the project.
 
 <p align="center">
-<img src="./images/hisplayer-plugin.png">
+<img width="933" height="121" alt="image" src="https://github.com/user-attachments/assets/ac60e0a0-0625-45ed-9ae0-067ef31b63d3" />
 </p>
 
 ## Set Default Build Settings Version
@@ -29,16 +29,17 @@ It is preferable to use the HISPlayer SDK in a C++ project, rather than in an on
 <img src="./images/CreateScript.png">
 </p>
 
-For UE versions 5.0, 5.1, 5.2 and 5.3 it is necessary to set the DefaultBuildSettings to BuildSettingsVersion.V2. In order to do so, please add the line `DefaultBuildSettings = BuildSettingsVersion.V2;` in the `"YourProjectName".Target.cs` and `"YourProjectName"Editor.Target.cs` scripts, located in the `Source` directory: 
+Make sure that the "YourProjectName".Target.cs and "YourProjectName"Editor.Target.cs scripts located in the Source directory have the following setup:
 
 <p align="center">
-<img src="./images/TargetSettings.png">
+<img width="673" height="535" alt="image" src="https://github.com/user-attachments/assets/a57357b2-2aff-43f5-8c53-4bcbc87ef90f" />
+<img width="683" height="552" alt="image" src="https://github.com/user-attachments/assets/a13086a7-5196-438e-9f5b-d643340383df" />
 </p>
 
 The HISPlayerSample and HISPlayerVRSample are C++ projects which already include this lines of code so, in case you are using them, you can skip to the next section.
 
-## Import HISPlayer_Blueprint
-To use HISPlayer’s functionalities in your Level, you need to add the **HISPlayer_Blueprint**. The is located inside **Content Browser > HISPlayer Content > Blueprint**.
+## Import BP_HISPlayer
+To use HISPlayer’s functionalities in your Level, you need to add the **BP_HISPlayer**. The is located inside **Content Browser > HISPlayer Content > Blueprint**.
 
 <p align="center">
 <img src="./images/browser-structure.png">
@@ -50,27 +51,27 @@ If you can’t find the **HISPlayer Content directory** in the Content Browser, 
 <img src="./images/show-content.png">
 </p>
 
-Add the **HISPlayer_Blueprint**.
+Add the **BP_HISPlayer**.
 
 <p align="center">
-<img src="./images/insert-blueprint.png">
+<img width="1820" height="709" alt="image" src="https://github.com/user-attachments/assets/e6ab4108-7e0c-4a2b-85bb-fc27af38c8e4" />
 </p>
 
-To render the content, you need to set an actor with **HISPlayer_Material** as Material.
+To render the content, you need to set an actor with **M_HISPlayerMat** as Material.
 
 <p align="center">
-<img src="./images/add-actor.png">
+<img width="1824" height="710" alt="image" src="https://github.com/user-attachments/assets/8ddc98d7-77d1-484d-91a0-dfe1a546a54a" />
 </p>
 
 ## Configure HISPlayer multistream properties
-Set the player’s parameters as desired in your **HISPlayer_Blueprint** actor for single stream and multistream.
-It is possible to add more than one stream using one instance of the **HISPlayer_Blueprint**, by adding more elements to the Stream URL and Target Actors arrays.
+Set the player’s parameters as desired in your **BP_HISPlayer** actor for single stream and multistream.
+It is possible to add more than one stream using one instance of the **BP_HISPlayer**, by adding more elements to the Stream URL and Target Actors arrays.
 
 <p align="center">
 <img src="./images/playback-props.png">
 </p>
 
-You can modify the behavior of the **HISPlayer_Blueprint** as desired or use a custom blueprint, as long as it follows the original structure.
+You can modify the behavior of the **BP_HISPlayer** as desired or use a custom blueprint, as long as it follows the original structure.
 
 <p align="center">
 <img src="./images/graphic.png">
@@ -78,15 +79,16 @@ You can modify the behavior of the **HISPlayer_Blueprint** as desired or use a c
 
 Use the **HISPlayer API** to add your own implementation.
 
-<p align="center">
-<img src="./images/sample.png">
-</p>
-
 ## License Key
-Input the license key that is associated with the SDK. If the license key is not valid, the player won’t work and will throw an error message. To find this field, go to the Level Outliner and look for the HISPlayer_Blueprint actor. Then, on the Details window, look for the HISPlayer section.
+
+Input the license key that is associated with the SDK. If the license key is not valid, the player won’t work and will throw an error message.
+
+To find this field, go to the Level Outliner and look for the **BP_HISPlayer** actor. Then, in the **Details** window, locate the **HISPlayer** section.
+
+> Note: If you are using the FAB marketplace package, entering a license key is not required.
 
 <p align="center">
-<img src="./images/licensekey.png">
+<img width="849" height="681" alt="image" src="https://github.com/user-attachments/assets/74e9097f-4ab4-41f9-adf0-570e11995b91" />
 </p>
 
 ## Disable Anti-Aliasing
