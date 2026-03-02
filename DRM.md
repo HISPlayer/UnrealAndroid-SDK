@@ -7,8 +7,8 @@ from the content library to client devices via content servers. Licenses to view
 The HISPlayer Unreal SDK for Android supports [Widevine DRM](https://www.widevine.com/solutions/widevine-drm). Only Widevine with security L3 is supported.
 It is also possible to add another level of protection with DRM tokens, using a token header and a token value.
 
-It is possible to add the URL, the Key Server URI and the tokens from the Editor. Please, refer to the **HISPlayer_Blueprint** located in 
-**Plugins > HISPlayer Content > Blueprint > HISPlayer_Blueprint**
+It is possible to add the URL, the Key Server URI and the tokens from the Editor. Please, refer to the **BP_HISPlayer** located in 
+**Plugins > HISPlayer Content > Blueprint > BP_HISPlayer**
 
 <p align="center">
 <img width=80% alt="image" src="https://github.com/HISPlayer/UnrealAndroid-SDK/assets/47497948/97908896-3c80-47af-ad21-fa4e9cad8ada">
