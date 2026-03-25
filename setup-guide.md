@@ -66,13 +66,13 @@ If you can’t find the **HISPlayer Content directory** in the Content Browser, 
 Add the **BP_HISPlayer**.
 
 <p align="center">
-<img width="1820" height="709" alt="image" src="https://github.com/user-attachments/assets/e6ab4108-7e0c-4a2b-85bb-fc27af38c8e4" />
+<img alt="image" src="https://github.com/user-attachments/assets/e6ab4108-7e0c-4a2b-85bb-fc27af38c8e4" />
 </p>
 
 To render the content, you need to set an actor with **M_HISPlayerMat** as Material.
 
 <p align="center">
-<img width="1824" height="710" alt="image" src="https://github.com/user-attachments/assets/8ddc98d7-77d1-484d-91a0-dfe1a546a54a" />
+<img alt="image" src="https://github.com/user-attachments/assets/8ddc98d7-77d1-484d-91a0-dfe1a546a54a" />
 </p>
 
 ## Configure HISPlayer multistream properties
