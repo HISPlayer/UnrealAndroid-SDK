@@ -126,14 +126,9 @@ Make sure that you have clicked Configure Android Settings.
 <img src="https://github.com/HISPlayer/UnrealAndroid-SDK/assets/32887298/a804c07a-1a17-4fe0-8ef5-c3ed0c006930">
 </p>
 
-If you are using **HISPlayerSDK version 2.2.0 and above**, both Vulkan and OpenGL ES3 are supported. You can select either Vulkan or OpenGL ES3 or both according to your project requirement. 
+Both Vulkan and OpenGL ES3 are supported. You can select either Vulkan or OpenGL ES3 or both according to your project requirement. 
 <p align="center">
 <img src="https://github.com/HISPlayer/UnrealAndroid-SDK/assets/32887298/78f51424-f796-4097-95f3-49456cde929b">
-</p>
-
-If you are using **HISPlayerSDK version 2.1.0 and below**, make sure that only **Support OpenGL ES3** option is enabled, **Vulkan Support** is disabled. 
-<p align="center">
-<img src="./images/OpenGL.png">
 </p>
 
 All the Android Settings must be configurated according to your project needs.
