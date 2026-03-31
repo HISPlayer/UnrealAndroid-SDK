@@ -4,22 +4,6 @@
 - [Added] Support for Unreal Engine 5.6 and 5.7.
 - [Improvement] Updated plugin content elements naming to following Unreal Engine naming conventions
 
-### Version 2.9.0.5
-##### November 20, 2025
-- [Improvement] Improved Vulkan rendering when Vulkan validation layer is enabled.
-
-### Version 2.9.0.4
-##### November 17, 2025
-- [Improvement] Special SDK for UE 5.6 with optimized video rendering performance with Vulkan.
-
-### Version 2.9.0.3
-##### October 22, 2025
-- [Improvement] Optimized performance when taking off and putting back on the Meta Quest device.
-
-### Version 2.9.0.2
-##### June 24, 2025
-- [Improvement] Special SDK for UE 5.5 with optimized video rendering performance with Vulkan.
-
 ### Version 2.9.0
 ##### February 4, 2025
 - [Improvement] Optimized local video playback with OBB file.
