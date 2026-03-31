@@ -3,19 +3,19 @@
 ## Requirements
 
 #### Meta XR Plugin version
-- Minimum Meta XR Plugin: 53.0
+- Minimum Meta XR Plugin: 72.0
 
 #### Unreal version
-- Minimum Unreal version: 5.1
+- Minimum Unreal version: 5.5
 
 #### HISPlayer SDK version
 - Minimum HISPlayer SDK version: 2.2.0 with Vulkan support.
 
 #### Supported Android Version
 - Minor version - Android 12
-- Recommended SDK: 32
-- Recommended NDK: 25.1.8937393
-- Recommended JDK: JDK 11
+- Recommended SDK: 34 / 35
+- Recommended NDK: 27.2.12479018
+- Recommended JDK: JDK 21
 
 ## Install the Oculus PC app for Meta Quest Link app for Windows
 
