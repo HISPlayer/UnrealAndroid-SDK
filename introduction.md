@@ -1,5 +1,5 @@
 # HISPlayer Unreal Android SDK
-The most advanced video streaming player for Unreal Engine supporting supporting local files, VOD, and live streaming. It enables premium DASH and HLS video streaming inside your Unreal games and metaverses on Windows.
+The most advanced video streaming player for Unreal Engine supporting supporting local files, VOD, and live streaming. It enables premium DASH and HLS video streaming inside your Unreal games and metaverses on Android.
 Fully customizable and extensible to fit advanced streaming requirements. If you require specific or advanced features, please don't hesitate to contact us at [contact@hisplayer.com](mailto:contact@hisplayer.com).
 
 ## Compatibility
