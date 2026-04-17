@@ -10,8 +10,8 @@ Fully customizable and extensible to fit advanced streaming requirements. If you
   * 5.7
 
 ### Supported Stream Protocols: 
-  * HLS (Live & VOD)
-  * DASH (VOD)
+  * HLS
+  * DASH
 
 ### Video Codecs:
 * H.263
