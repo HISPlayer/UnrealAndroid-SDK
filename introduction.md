@@ -29,7 +29,7 @@ Fully customizable and extensible to fit advanced streaming requirements. If you
 * Dolby EAC3 (if codec is available in the device hardware)
 
 ### Content Protection:
- * Widevine DRM L3
+ * Widevine DRM
 
 ### Supported Unreal’s Rendering Mode: 
 * Texture
