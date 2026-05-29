@@ -44,52 +44,53 @@ It is preferable to use the HISPlayer SDK in a C++ project, rather than in an on
 Make sure that the `YourProjectName.Target.cs` and `YourProjectNameEditor.Target.cs` scripts located in the `Source` directory have the following setup:
 
 ```
-public class HISPlayerVRSampleTarget : TargetRules
+public class HISPlayerSampleTarget : TargetRules
 {
-	public HISPlayerVRSampleTarget(TargetInfo Target) : base(Target)
+	public HISPlayerSampleTarget(TargetInfo Target) : base(Target)
 	{
 #if UE_5_7_OR_LATER
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V6;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_7;
-		ExtraModuleNames.Add("HISPlayerVRSample");
+		ExtraModuleNames.Add("HISPlayerSample");
 #elif UE_5_4_OR_LATER
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_4;
-		ExtraModuleNames.Add("HISPlayerVRSample");
+		ExtraModuleNames.Add("HISPlayerSample");
 #else
 		Type = TargetType.Game;
         DefaultBuildSettings = BuildSettingsVersion.V2;
-        ExtraModuleNames.AddRange(new string[] { "HISPlayerVRSample" });
+        ExtraModuleNames.AddRange(new string[] { "HISPlayerSample" });
 #endif
     }
 }
 ```
 
 ```
-public class HISPlayerVRSampleEditorTarget : TargetRules
+public class HISPlayerSampleEditorTarget : TargetRules
 {
-	public HISPlayerVRSampleEditorTarget(TargetInfo Target) : base(Target)
+	public HISPlayerSampleEditorTarget(TargetInfo Target) : base(Target)
 	{
 #if UE_5_7_OR_LATER
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V6;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_7;
-		ExtraModuleNames.Add("HISPlayerVRSample");
+		ExtraModuleNames.Add("HISPlayerSample");
 #elif UE_5_4_OR_LATER
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_4;
-		ExtraModuleNames.Add("HISPlayerVRSample");
+		ExtraModuleNames.Add("HISPlayerSample");
 #else
 		Type = TargetType.Editor;
         DefaultBuildSettings = BuildSettingsVersion.V2;
-        ExtraModuleNames.AddRange(new string[] { "HISPlayerVRSample" });
+        ExtraModuleNames.AddRange(new string[] { "HISPlayerSample" });
 #endif
     }
 }
 ```
+
 
 ## Import BP_HISPlayer
 To use HISPlayer’s functionalities in your Level, you need to add the **BP_HISPlayer**. The is located inside **Content Browser > HISPlayer Content > Blueprint**.
