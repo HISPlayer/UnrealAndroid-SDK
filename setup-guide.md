@@ -91,8 +91,6 @@ public class HISPlayerVRSampleEditorTarget : TargetRules
 }
 ```
 
-The `HISPlayerVRSample` is a C++ project which already include this lines of code so, in case you are using it, you can skip to the next section.
-
 ## Import BP_HISPlayer
 To use HISPlayer’s functionalities in your Level, you need to add the **BP_HISPlayer**. The is located inside **Content Browser > HISPlayer Content > Blueprint**.
 
