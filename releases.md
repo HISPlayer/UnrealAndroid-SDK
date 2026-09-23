@@ -1,4 +1,11 @@
 # HISPlayer Android SDK Release Notes
+
+### Version 2.11.0
+##### September 23, 2026
+- [Added] Support for Unreal Engine 5.8.
+- [Added] HISPlayerError type to identify the errors reported by the SDK.
+- [Improvement] Improved the error handling system.
+
 ### Version 2.10.0
 ##### February 26, 2026
 - [Added] Support for Unreal Engine 5.6 and 5.7.
