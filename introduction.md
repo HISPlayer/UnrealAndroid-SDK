@@ -8,6 +8,7 @@ Fully customizable and extensible to fit advanced streaming requirements. If you
   * 5.5
   * 5.6
   * 5.7
+  * 5.8
 
 ### Supported Stream Protocols: 
   * HLS
